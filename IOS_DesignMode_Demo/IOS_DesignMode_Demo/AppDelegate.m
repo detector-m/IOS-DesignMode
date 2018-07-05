@@ -7,16 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "DMRDirector.h"
+#import "DMRDirectorBuilder.h"
 
 @interface AppDelegate ()
-
+- (void)testBuilderMode;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self testBuilderMode];
+    
     return YES;
 }
 
@@ -47,5 +51,21 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Private
+- (void)testBuilderMode {
+    NSLog(@"Start...");
+    DMRDirector *director = [DMRDirector new];
+    DMRProduct *product = nil;
+    product = [director constructProduct:[DMRBuilder new]];
+    NSLog(@"%@", product);
+    NSLog(@"End...");
+    
+    
+    NSLog(@"Start...");
+    DMRDirectorBuilder *directorBuilder = [DMRDirectorBuilder new];
+    product = [directorBuilder buildProduct];
+    NSLog(@"%@", product);
+    NSLog(@"End...");
+}
 
 @end
