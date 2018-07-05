@@ -45,3 +45,5 @@
 [JAVA设计模式之单例模式](https://blog.csdn.net/jason0539/article/details/23297037) 
 
 [IOS开发之单例设计模式](https://www.cnblogs.com/JackieHoo/p/5050010.html)
+
+[iOS中的单例模式](http://www.cocoachina.com/ios/20171123/21300.html)

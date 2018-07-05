@@ -10,12 +10,17 @@
 #import "DMRDirector.h"
 #import "DMRDirectorBuilder.h"
 #import "DMRPrototypeClient.h"
+#import "DMRSingleton.h"
+#import "DMRSingletonSecond.h"
 
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
 // 原型模式
 - (void)testPrototypeMode;
+// 单例模式
+- (void)testSingletonMode;
+- (void)testSingletonSceondMode;
 @end
 
 @implementation AppDelegate
@@ -24,7 +29,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
 //    [self testBuilderMode];
-    [self testPrototypeMode];
+//    [self testPrototypeMode];
+    [self testSingletonMode];
+    [self testSingletonSceondMode];
     
     return YES;
 }
@@ -75,5 +82,34 @@
 
 - (void)testPrototypeMode {
     [[DMRPrototypeClient new] testPrototype];
+}
+
+- (void)testSingletonMode {
+    DMRSingleton *singleton = [DMRSingleton sharedSingleton];
+    
+    // if open this there will get compile errors;
+//    DMRSingleton *singleton2 = [singleton copy];
+//    DMRSingleton *singleton3 = [[DMRSingleton alloc] init];
+//    DMRSingleton *singleton4 = [DMRSingleton new];
+
+    
+    NSLog(@"test start...");
+    
+    NSAssert(singleton != nil, @"DMRSingleton  error");
+    
+    NSLog(@"test end...");
+}
+
+- (void)testSingletonSceondMode {
+    DMRSingletonSecond *singleton = [DMRSingletonSecond sharedSingleton];
+    DMRSingletonSecond *singleton2 = [singleton copy];
+    DMRSingletonSecond *singleton3 = [[DMRSingletonSecond alloc] init];
+    DMRSingletonSecond *singleton4 = [DMRSingletonSecond new];
+    
+    NSLog(@"test start...");
+    NSAssert(singleton == singleton2, @"The singleton error 2");
+    NSAssert(singleton == singleton3, @"The singleton error 3");
+    NSAssert(singleton == singleton4, @"The singleton error 4");
+    NSLog(@"test end...");
 }
 @end
