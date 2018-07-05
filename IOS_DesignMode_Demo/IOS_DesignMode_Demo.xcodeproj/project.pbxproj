@@ -20,6 +20,9 @@
 		045F546E20EDFE7E00B0327A /* DMRProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F546D20EDFE7E00B0327A /* DMRProduct.m */; };
 		045F547120EE035C00B0327A /* DMRDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F547020EE035C00B0327A /* DMRDirector.m */; };
 		045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F547320EE06A500B0327A /* DMRDirectorBuilder.m */; };
+		045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 045F547620EE0FE000B0327A /* IOS_PrototypeMode_README.md */; };
+		045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F547A20EE147A00B0327A /* DMRPrototype.m */; };
+		045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F547D20EE19A100B0327A /* DMRPrototypeClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,11 @@
 		045F547020EE035C00B0327A /* DMRDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRDirector.m; sourceTree = "<group>"; };
 		045F547220EE06A500B0327A /* DMRDirectorBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRDirectorBuilder.h; sourceTree = "<group>"; };
 		045F547320EE06A500B0327A /* DMRDirectorBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRDirectorBuilder.m; sourceTree = "<group>"; };
+		045F547620EE0FE000B0327A /* IOS_PrototypeMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_PrototypeMode_README.md; sourceTree = "<group>"; };
+		045F547920EE147A00B0327A /* DMRPrototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRPrototype.h; sourceTree = "<group>"; };
+		045F547A20EE147A00B0327A /* DMRPrototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRPrototype.m; sourceTree = "<group>"; };
+		045F547C20EE19A100B0327A /* DMRPrototypeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRPrototypeClient.h; sourceTree = "<group>"; };
+		045F547D20EE19A100B0327A /* DMRPrototypeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRPrototypeClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				045F547520EE0F7200B0327A /* IOS_PrototypeMode */,
 				045F546520EDFB4900B0327A /* IOS_BuilderMode */,
 				045F543320EDFA8800B0327A /* AppDelegate.h */,
 				045F543420EDFA8800B0327A /* AppDelegate.m */,
@@ -163,6 +172,26 @@
 				045F547320EE06A500B0327A /* DMRDirectorBuilder.m */,
 			);
 			path = IOS_BuilderMode;
+			sourceTree = "<group>";
+		};
+		045F547520EE0F7200B0327A /* IOS_PrototypeMode */ = {
+			isa = PBXGroup;
+			children = (
+				045F547820EE136100B0327A /* Resource */,
+				045F547620EE0FE000B0327A /* IOS_PrototypeMode_README.md */,
+				045F547920EE147A00B0327A /* DMRPrototype.h */,
+				045F547A20EE147A00B0327A /* DMRPrototype.m */,
+				045F547C20EE19A100B0327A /* DMRPrototypeClient.h */,
+				045F547D20EE19A100B0327A /* DMRPrototypeClient.m */,
+			);
+			path = IOS_PrototypeMode;
+			sourceTree = "<group>";
+		};
+		045F547820EE136100B0327A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +299,7 @@
 			files = (
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
+				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
 			);
@@ -298,7 +328,9 @@
 			files = (
 				045F543820EDFA8800B0327A /* ViewController.m in Sources */,
 				045F546E20EDFE7E00B0327A /* DMRProduct.m in Sources */,
+				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
+				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
 				045F543520EDFA8800B0327A /* AppDelegate.m in Sources */,

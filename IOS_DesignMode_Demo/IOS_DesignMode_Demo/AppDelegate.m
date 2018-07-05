@@ -9,9 +9,13 @@
 #import "AppDelegate.h"
 #import "DMRDirector.h"
 #import "DMRDirectorBuilder.h"
+#import "DMRPrototypeClient.h"
 
 @interface AppDelegate ()
+// 建造者模式
 - (void)testBuilderMode;
+// 原型模式
+- (void)testPrototypeMode;
 @end
 
 @implementation AppDelegate
@@ -19,7 +23,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [self testBuilderMode];
+//    [self testBuilderMode];
+    [self testPrototypeMode];
     
     return YES;
 }
@@ -68,4 +73,7 @@
     NSLog(@"End...");
 }
 
+- (void)testPrototypeMode {
+    [[DMRPrototypeClient new] testPrototype];
+}
 @end
