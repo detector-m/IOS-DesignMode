@@ -24,6 +24,11 @@
 		045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F547A20EE147A00B0327A /* DMRPrototype.m */; };
 		045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F547D20EE19A100B0327A /* DMRPrototypeClient.m */; };
 		045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 045F548020EE211500B0327A /* IOS_SingletonMode_README.md */; };
+		045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 045F548420EF100F00B0327A /* IOS_AdapterMode_README.md */; };
+		045F548920EF12DC00B0327A /* class.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548720EF12DC00B0327A /* class.png */; };
+		045F548A20EF12DC00B0327A /* object.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548820EF12DC00B0327A /* object.png */; };
+		045F548C20EF130200B0327A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548B20EF130200B0327A /* 1.png */; };
+		045F548E20EF131100B0327A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548D20EF131100B0327A /* 1.png */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
 /* End PBXBuildFile section */
@@ -78,6 +83,11 @@
 		045F547C20EE19A100B0327A /* DMRPrototypeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRPrototypeClient.h; sourceTree = "<group>"; };
 		045F547D20EE19A100B0327A /* DMRPrototypeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRPrototypeClient.m; sourceTree = "<group>"; };
 		045F548020EE211500B0327A /* IOS_SingletonMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_SingletonMode_README.md; sourceTree = "<group>"; };
+		045F548420EF100F00B0327A /* IOS_AdapterMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_AdapterMode_README.md; sourceTree = "<group>"; };
+		045F548720EF12DC00B0327A /* class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class.png; sourceTree = "<group>"; };
+		045F548820EF12DC00B0327A /* object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object.png; sourceTree = "<group>"; };
+		045F548B20EF130200B0327A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		045F548D20EF131100B0327A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		960F722E20EE589300CFFA07 /* DMRSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingleton.h; sourceTree = "<group>"; };
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
@@ -132,6 +142,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				045F548320EF0FC400B0327A /* IOS_AdapterMode */,
 				045F547F20EE20C100B0327A /* IOS_ SingletonMode */,
 				045F547520EE0F7200B0327A /* IOS_PrototypeMode */,
 				045F546520EDFB4900B0327A /* IOS_BuilderMode */,
@@ -199,6 +210,7 @@
 		045F547820EE136100B0327A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				045F548D20EF131100B0327A /* 1.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -219,6 +231,25 @@
 		045F548220EE21FF00B0327A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				045F548B20EF130200B0327A /* 1.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		045F548320EF0FC400B0327A /* IOS_AdapterMode */ = {
+			isa = PBXGroup;
+			children = (
+				045F548420EF100F00B0327A /* IOS_AdapterMode_README.md */,
+				045F548620EF128900B0327A /* Resource */,
+			);
+			path = IOS_AdapterMode;
+			sourceTree = "<group>";
+		};
+		045F548620EF128900B0327A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				045F548720EF12DC00B0327A /* class.png */,
+				045F548820EF12DC00B0327A /* object.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -326,12 +357,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045F548E20EF131100B0327A /* 1.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
+				045F548A20EF12DC00B0327A /* object.png in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
+				045F548920EF12DC00B0327A /* class.png in Resources */,
 				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
 				045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
+				045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */,
+				045F548C20EF130200B0327A /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
