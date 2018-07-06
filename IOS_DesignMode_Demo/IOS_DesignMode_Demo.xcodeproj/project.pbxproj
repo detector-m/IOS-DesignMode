@@ -29,6 +29,10 @@
 		045F548A20EF12DC00B0327A /* object.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548820EF12DC00B0327A /* object.png */; };
 		045F548C20EF130200B0327A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548B20EF130200B0327A /* 1.png */; };
 		045F548E20EF131100B0327A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F548D20EF131100B0327A /* 1.png */; };
+		045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F549020EF1BC300B0327A /* DMRClassAdapter.m */; };
+		045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F549320EF1BD200B0327A /* DMRObjectAdapter.m */; };
+		045F549720EF1BF200B0327A /* DMRNormalTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F549620EF1BF200B0327A /* DMRNormalTarget.m */; };
+		045F549B20EF1FAB00B0327A /* DMRAdaptee.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F549A20EF1FAB00B0327A /* DMRAdaptee.m */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
 /* End PBXBuildFile section */
@@ -88,6 +92,15 @@
 		045F548820EF12DC00B0327A /* object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object.png; sourceTree = "<group>"; };
 		045F548B20EF130200B0327A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		045F548D20EF131100B0327A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		045F548F20EF1BC300B0327A /* DMRClassAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRClassAdapter.h; sourceTree = "<group>"; };
+		045F549020EF1BC300B0327A /* DMRClassAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRClassAdapter.m; sourceTree = "<group>"; };
+		045F549220EF1BD200B0327A /* DMRObjectAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObjectAdapter.h; sourceTree = "<group>"; };
+		045F549320EF1BD200B0327A /* DMRObjectAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRObjectAdapter.m; sourceTree = "<group>"; };
+		045F549520EF1BF200B0327A /* DMRNormalTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRNormalTarget.h; sourceTree = "<group>"; };
+		045F549620EF1BF200B0327A /* DMRNormalTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRNormalTarget.m; sourceTree = "<group>"; };
+		045F549820EF1D8500B0327A /* DMRTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTarget.h; sourceTree = "<group>"; };
+		045F549920EF1FAB00B0327A /* DMRAdaptee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAdaptee.h; sourceTree = "<group>"; };
+		045F549A20EF1FAB00B0327A /* DMRAdaptee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAdaptee.m; sourceTree = "<group>"; };
 		960F722E20EE589300CFFA07 /* DMRSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingleton.h; sourceTree = "<group>"; };
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
@@ -240,6 +253,15 @@
 			isa = PBXGroup;
 			children = (
 				045F548420EF100F00B0327A /* IOS_AdapterMode_README.md */,
+				045F549820EF1D8500B0327A /* DMRTarget.h */,
+				045F549520EF1BF200B0327A /* DMRNormalTarget.h */,
+				045F549620EF1BF200B0327A /* DMRNormalTarget.m */,
+				045F549920EF1FAB00B0327A /* DMRAdaptee.h */,
+				045F549A20EF1FAB00B0327A /* DMRAdaptee.m */,
+				045F548F20EF1BC300B0327A /* DMRClassAdapter.h */,
+				045F549020EF1BC300B0327A /* DMRClassAdapter.m */,
+				045F549220EF1BD200B0327A /* DMRObjectAdapter.h */,
+				045F549320EF1BD200B0327A /* DMRObjectAdapter.m */,
 				045F548620EF128900B0327A /* Resource */,
 			);
 			path = IOS_AdapterMode;
@@ -394,11 +416,15 @@
 			files = (
 				045F543820EDFA8800B0327A /* ViewController.m in Sources */,
 				045F546E20EDFE7E00B0327A /* DMRProduct.m in Sources */,
+				045F549B20EF1FAB00B0327A /* DMRAdaptee.m in Sources */,
+				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
 				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
+				045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */,
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
+				045F549720EF1BF200B0327A /* DMRNormalTarget.m in Sources */,
 				960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */,
 				960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */,
 				045F543520EDFA8800B0327A /* AppDelegate.m in Sources */,

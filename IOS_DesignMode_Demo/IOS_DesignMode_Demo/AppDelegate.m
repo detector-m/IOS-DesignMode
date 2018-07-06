@@ -12,6 +12,8 @@
 #import "DMRPrototypeClient.h"
 #import "DMRSingleton.h"
 #import "DMRSingletonSecond.h"
+#import "DMRClassAdapter.h"
+#import "DMRObjectAdapter.h"
 
 @interface AppDelegate ()
 // 建造者模式
@@ -21,6 +23,9 @@
 // 单例模式
 - (void)testSingletonMode;
 - (void)testSingletonSceondMode;
+// 适配器模式
+- (void)testClassAdapterMode;
+- (void)testObjectAdapterMode;
 @end
 
 @implementation AppDelegate
@@ -30,8 +35,10 @@
     
 //    [self testBuilderMode];
 //    [self testPrototypeMode];
-    [self testSingletonMode];
-    [self testSingletonSceondMode];
+//    [self testSingletonMode];
+//    [self testSingletonSceondMode];
+//    [self testClassAdapterMode];
+    [self testObjectAdapterMode];
     
     return YES;
 }
@@ -111,5 +118,13 @@
     NSAssert(singleton == singleton3, @"The singleton error 3");
     NSAssert(singleton == singleton4, @"The singleton error 4");
     NSLog(@"test end...");
+}
+
+// 适配器模式
+- (void)testClassAdapterMode {
+    [DMRClassAdapter test];
+}
+- (void)testObjectAdapterMode {
+    [DMRObjectAdapter test];
 }
 @end
