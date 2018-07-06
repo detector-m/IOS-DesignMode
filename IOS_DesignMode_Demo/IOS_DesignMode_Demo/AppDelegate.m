@@ -15,6 +15,9 @@
 #import "DMRClassAdapter.h"
 #import "DMRObjectAdapter.h"
 
+#import "DMRConsignor.h"
+#import "DMRProxy.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -26,6 +29,9 @@
 // 适配器模式
 - (void)testClassAdapterMode;
 - (void)testObjectAdapterMode;
+
+// 代理模式
+- (void)testProxyMode;
 @end
 
 @implementation AppDelegate
@@ -34,11 +40,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
 //    [self testBuilderMode];
+    
 //    [self testPrototypeMode];
+    
 //    [self testSingletonMode];
 //    [self testSingletonSceondMode];
+    
 //    [self testClassAdapterMode];
-    [self testObjectAdapterMode];
+//    [self testObjectAdapterMode];
+    
+    [self testProxyMode];
     
     return YES;
 }
@@ -126,5 +137,14 @@
 }
 - (void)testObjectAdapterMode {
     [DMRObjectAdapter test];
+}
+
+// 代理模式
+- (void)testProxyMode {
+    DMRProxy *proxy = [DMRProxy new];
+    DMRConsignor *consignor = [DMRConsignor new];
+    consignor.delegate = proxy;
+    
+    [consignor doSomething];
 }
 @end
