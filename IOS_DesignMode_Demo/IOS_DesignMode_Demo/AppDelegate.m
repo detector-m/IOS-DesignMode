@@ -20,6 +20,8 @@
 
 #import "DMRFacade.h"
 
+#import "DMRDecoratorTest.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -36,6 +38,8 @@
 - (void)testProxyMode;
 // 外观模式
 - (void)testFacadeMode;
+// 装饰模式
+- (void)testDecoratorMode;
 @end
 
 @implementation AppDelegate
@@ -55,7 +59,9 @@
     
 //    [self testProxyMode];
     
-    [self testFacadeMode];
+//    [self testFacadeMode];
+    
+    [self testDecoratorMode];
     
     return YES;
 }
@@ -158,5 +164,9 @@
 - (void)testFacadeMode {
     DMRFacade *facade = [DMRFacade new];
     [facade test];
+}
+
+- (void)testDecoratorMode {
+    [[DMRDecoratorTest new] test];
 }
 @end
