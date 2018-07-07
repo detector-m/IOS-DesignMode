@@ -18,6 +18,8 @@
 #import "DMRConsignor.h"
 #import "DMRProxy.h"
 
+#import "DMRFacade.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -32,6 +34,8 @@
 
 // 代理模式
 - (void)testProxyMode;
+// 外观模式
+- (void)testFacadeMode;
 @end
 
 @implementation AppDelegate
@@ -49,7 +53,9 @@
 //    [self testClassAdapterMode];
 //    [self testObjectAdapterMode];
     
-    [self testProxyMode];
+//    [self testProxyMode];
+    
+    [self testFacadeMode];
     
     return YES;
 }
@@ -146,5 +152,11 @@
     consignor.delegate = proxy;
     
     [consignor doSomething];
+}
+
+// 外观模式
+- (void)testFacadeMode {
+    DMRFacade *facade = [DMRFacade new];
+    [facade test];
 }
 @end
