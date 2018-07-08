@@ -38,6 +38,10 @@
 		045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F54A720EF51BF00B0327A /* DMRConsignor.m */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
+		963DEEB120F1B3B1008FD02C /* DMRCompositeComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB020F1B3B1008FD02C /* DMRCompositeComponent.m */; };
+		963DEEB420F1BAAA008FD02C /* DMRCompositeLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB320F1BAAA008FD02C /* DMRCompositeLeaf.m */; };
+		963DEEB720F1BC00008FD02C /* DMRCompositeComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB620F1BC00008FD02C /* DMRCompositeComposite.m */; };
+		963DEEBA20F1BE3B008FD02C /* DMRCompositeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB920F1BE3B008FD02C /* DMRCompositeTest.m */; };
 		963EC95E20F09B7D0089A3CE /* IOA_FacadeMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 963EC95D20F09B7D0089A3CE /* IOA_FacadeMode_README.md */; };
 		963EC96020F09BE70089A3CE /* facade.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC95F20F09BE70089A3CE /* facade.png */; };
 		963EC96320F0A8410089A3CE /* DMRSystemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EC96220F0A8410089A3CE /* DMRSystemOne.m */; };
@@ -52,6 +56,11 @@
 		963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EC97D20F0DDF90089A3CE /* DMRDecoratorFirst.m */; };
 		963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EC98020F0DE060089A3CE /* DMRDecoratorSecond.m */; };
 		963EC98420F0E1AC0089A3CE /* DMRDecoratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 963EC98320F0E1AC0089A3CE /* DMRDecoratorTest.m */; };
+		963EC98A20F10E7D0089A3CE /* IOS_CompositeMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 963EC98920F10E7D0089A3CE /* IOS_CompositeMode_README.md */; };
+		963EC98D20F110720089A3CE /* composite2.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC98B20F110720089A3CE /* composite2.png */; };
+		963EC98E20F110720089A3CE /* composite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC98C20F110720089A3CE /* composite1.png */; };
+		963EC99020F1188F0089A3CE /* composite3.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC98F20F1188F0089A3CE /* composite3.png */; };
+		963EC99220F119DD0089A3CE /* composite0.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC99120F119DD0089A3CE /* composite0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +137,14 @@
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
 		960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingletonSecond.m; sourceTree = "<group>"; };
+		963DEEAF20F1B3B1008FD02C /* DMRCompositeComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRCompositeComponent.h; sourceTree = "<group>"; };
+		963DEEB020F1B3B1008FD02C /* DMRCompositeComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRCompositeComponent.m; sourceTree = "<group>"; };
+		963DEEB220F1BAAA008FD02C /* DMRCompositeLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRCompositeLeaf.h; sourceTree = "<group>"; };
+		963DEEB320F1BAAA008FD02C /* DMRCompositeLeaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRCompositeLeaf.m; sourceTree = "<group>"; };
+		963DEEB520F1BC00008FD02C /* DMRCompositeComposite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRCompositeComposite.h; sourceTree = "<group>"; };
+		963DEEB620F1BC00008FD02C /* DMRCompositeComposite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRCompositeComposite.m; sourceTree = "<group>"; };
+		963DEEB820F1BE3B008FD02C /* DMRCompositeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRCompositeTest.h; sourceTree = "<group>"; };
+		963DEEB920F1BE3B008FD02C /* DMRCompositeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRCompositeTest.m; sourceTree = "<group>"; };
 		963EC95D20F09B7D0089A3CE /* IOA_FacadeMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOA_FacadeMode_README.md; sourceTree = "<group>"; };
 		963EC95F20F09BE70089A3CE /* facade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facade.png; sourceTree = "<group>"; };
 		963EC96120F0A8410089A3CE /* DMRSystemOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSystemOne.h; sourceTree = "<group>"; };
@@ -152,6 +169,11 @@
 		963EC98020F0DE060089A3CE /* DMRDecoratorSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRDecoratorSecond.m; sourceTree = "<group>"; };
 		963EC98220F0E1AC0089A3CE /* DMRDecoratorTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRDecoratorTest.h; sourceTree = "<group>"; };
 		963EC98320F0E1AC0089A3CE /* DMRDecoratorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRDecoratorTest.m; sourceTree = "<group>"; };
+		963EC98920F10E7D0089A3CE /* IOS_CompositeMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_CompositeMode_README.md; sourceTree = "<group>"; };
+		963EC98B20F110720089A3CE /* composite2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite2.png; sourceTree = "<group>"; };
+		963EC98C20F110720089A3CE /* composite1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite1.png; sourceTree = "<group>"; };
+		963EC98F20F1188F0089A3CE /* composite3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite3.png; sourceTree = "<group>"; };
+		963EC99120F119DD0089A3CE /* composite0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +224,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				963EC98520F10E120089A3CE /* IOS_CompositeMode */,
 				963EC96F20F0CDA00089A3CE /* IOS_DecoratorMode */,
 				963EC95B20F09B1B0089A3CE /* IOS_FacadeMode */,
 				045F549C20EF4A1000B0327A /* IOS_ProxyMode */,
@@ -401,6 +424,34 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		963EC98520F10E120089A3CE /* IOS_CompositeMode */ = {
+			isa = PBXGroup;
+			children = (
+				963EC98920F10E7D0089A3CE /* IOS_CompositeMode_README.md */,
+				963DEEAF20F1B3B1008FD02C /* DMRCompositeComponent.h */,
+				963DEEB020F1B3B1008FD02C /* DMRCompositeComponent.m */,
+				963DEEB220F1BAAA008FD02C /* DMRCompositeLeaf.h */,
+				963DEEB320F1BAAA008FD02C /* DMRCompositeLeaf.m */,
+				963DEEB520F1BC00008FD02C /* DMRCompositeComposite.h */,
+				963DEEB620F1BC00008FD02C /* DMRCompositeComposite.m */,
+				963DEEB820F1BE3B008FD02C /* DMRCompositeTest.h */,
+				963DEEB920F1BE3B008FD02C /* DMRCompositeTest.m */,
+				963EC98620F10E3F0089A3CE /* Resource */,
+			);
+			path = IOS_CompositeMode;
+			sourceTree = "<group>";
+		};
+		963EC98620F10E3F0089A3CE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				963EC99120F119DD0089A3CE /* composite0.png */,
+				963EC98C20F110720089A3CE /* composite1.png */,
+				963EC98B20F110720089A3CE /* composite2.png */,
+				963EC98F20F1188F0089A3CE /* composite3.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -504,9 +555,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963EC99220F119DD0089A3CE /* composite0.png in Resources */,
 				045F548E20EF131100B0327A /* 1.png in Resources */,
+				963EC98E20F110720089A3CE /* composite1.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
 				045F548A20EF12DC00B0327A /* object.png in Resources */,
+				963EC98A20F10E7D0089A3CE /* IOS_CompositeMode_README.md in Resources */,
 				963EC96020F09BE70089A3CE /* facade.png in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
 				963EC97420F0D2E70089A3CE /* decorator.png in Resources */,
@@ -514,9 +568,11 @@
 				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
 				045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */,
 				963EC95E20F09B7D0089A3CE /* IOA_FacadeMode_README.md in Resources */,
+				963EC99020F1188F0089A3CE /* composite3.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
 				963EC96B20F0AB3F0089A3CE /* 1.png in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
+				963EC98D20F110720089A3CE /* composite2.png in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
 				045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */,
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
@@ -564,13 +620,17 @@
 				963EC96620F0A8560089A3CE /* DMRSystemTwo.m in Sources */,
 				045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */,
 				963EC96E20F0AD770089A3CE /* DMRFacade.m in Sources */,
+				963DEEB420F1BAAA008FD02C /* DMRCompositeLeaf.m in Sources */,
 				960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */,
+				963DEEBA20F1BE3B008FD02C /* DMRCompositeTest.m in Sources */,
+				963DEEB720F1BC00008FD02C /* DMRCompositeComposite.m in Sources */,
 				045F543520EDFA8800B0327A /* AppDelegate.m in Sources */,
 				963EC97820F0D95A0089A3CE /* DMRContreteComponent.m in Sources */,
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,
 				963EC97B20F0DACC0089A3CE /* DMRDecorator.m in Sources */,
 				045F547120EE035C00B0327A /* DMRDirector.m in Sources */,
 				963EC96920F0A8640089A3CE /* DMRSystemThree.m in Sources */,
+				963DEEB120F1B3B1008FD02C /* DMRCompositeComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

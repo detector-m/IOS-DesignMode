@@ -22,6 +22,8 @@
 
 #import "DMRDecoratorTest.h"
 
+#import "DMRCompositeTest.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -40,6 +42,8 @@
 - (void)testFacadeMode;
 // 装饰模式
 - (void)testDecoratorMode;
+// 组合模式
+- (void)testCompositeMode;
 @end
 
 @implementation AppDelegate
@@ -61,7 +65,9 @@
     
 //    [self testFacadeMode];
     
-    [self testDecoratorMode];
+//    [self testDecoratorMode];
+    
+    [self testCompositeMode];
     
     return YES;
 }
@@ -168,5 +174,9 @@
 
 - (void)testDecoratorMode {
     [[DMRDecoratorTest new] test];
+}
+
+- (void)testCompositeMode {
+    [[DMRCompositeTest new] test];
 }
 @end
