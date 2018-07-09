@@ -24,6 +24,8 @@
 
 #import "DMRCompositeTest.h"
 
+#import "DMRBridgeClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -44,6 +46,8 @@
 - (void)testDecoratorMode;
 // 组合模式
 - (void)testCompositeMode;
+// 桥接模式
+- (void)testBridgeMode;
 @end
 
 @implementation AppDelegate
@@ -67,7 +71,9 @@
     
 //    [self testDecoratorMode];
     
-    [self testCompositeMode];
+//    [self testCompositeMode];
+    
+    [self testBridgeMode];
     
     return YES;
 }
@@ -178,5 +184,9 @@
 
 - (void)testCompositeMode {
     [[DMRCompositeTest new] test];
+}
+
+- (void)testBridgeMode {
+    [[DMRBridgeClient new] test];
 }
 @end

@@ -61,6 +61,13 @@
 		963EC98E20F110720089A3CE /* composite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC98C20F110720089A3CE /* composite1.png */; };
 		963EC99020F1188F0089A3CE /* composite3.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC98F20F1188F0089A3CE /* composite3.png */; };
 		963EC99220F119DD0089A3CE /* composite0.png in Resources */ = {isa = PBXBuildFile; fileRef = 963EC99120F119DD0089A3CE /* composite0.png */; };
+		964AD73A20F3987600903B79 /* IOS_BridgeMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 964AD73920F3987600903B79 /* IOS_BridgeMode_README.md */; };
+		964AD73C20F39ABB00903B79 /* bridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 964AD73B20F39ABB00903B79 /* bridge.png */; };
+		964AD73E20F3A89300903B79 /* bridge2.png in Resources */ = {isa = PBXBuildFile; fileRef = 964AD73D20F3A89300903B79 /* bridge2.png */; };
+		964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74420F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m */; };
+		964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */; };
+		964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */; };
+		964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +181,19 @@
 		963EC98C20F110720089A3CE /* composite1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite1.png; sourceTree = "<group>"; };
 		963EC98F20F1188F0089A3CE /* composite3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite3.png; sourceTree = "<group>"; };
 		963EC99120F119DD0089A3CE /* composite0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite0.png; sourceTree = "<group>"; };
+		964AD73920F3987600903B79 /* IOS_BridgeMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_BridgeMode_README.md; sourceTree = "<group>"; };
+		964AD73B20F39ABB00903B79 /* bridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge.png; sourceTree = "<group>"; };
+		964AD73D20F3A89300903B79 /* bridge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge2.png; sourceTree = "<group>"; };
+		964AD74120F3B21700903B79 /* DMRBridgeAbstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeAbstraction.h; sourceTree = "<group>"; };
+		964AD74220F3B27700903B79 /* DMRBridgeImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeImplementor.h; sourceTree = "<group>"; };
+		964AD74320F3B39A00903B79 /* DMRBridgeRefinedAbstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeRefinedAbstraction.h; sourceTree = "<group>"; };
+		964AD74420F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeRefinedAbstraction.m; sourceTree = "<group>"; };
+		964AD74620F3BCE600903B79 /* DMRBridgeConcreteImplementorA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeConcreteImplementorA.h; sourceTree = "<group>"; };
+		964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeConcreteImplementorA.m; sourceTree = "<group>"; };
+		964AD74920F3C04A00903B79 /* DMRBridgeConcreteImplementorB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeConcreteImplementorB.h; sourceTree = "<group>"; };
+		964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeConcreteImplementorB.m; sourceTree = "<group>"; };
+		964AD74C20F3C0E900903B79 /* DMRBridgeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeClient.h; sourceTree = "<group>"; };
+		964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +244,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				964AD73720F3984000903B79 /* IOS_BridgeMode */,
 				963EC98520F10E120089A3CE /* IOS_CompositeMode */,
 				963EC96F20F0CDA00089A3CE /* IOS_DecoratorMode */,
 				963EC95B20F09B1B0089A3CE /* IOS_FacadeMode */,
@@ -452,6 +473,34 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		964AD73720F3984000903B79 /* IOS_BridgeMode */ = {
+			isa = PBXGroup;
+			children = (
+				964AD73920F3987600903B79 /* IOS_BridgeMode_README.md */,
+				964AD74120F3B21700903B79 /* DMRBridgeAbstraction.h */,
+				964AD74220F3B27700903B79 /* DMRBridgeImplementor.h */,
+				964AD74320F3B39A00903B79 /* DMRBridgeRefinedAbstraction.h */,
+				964AD74420F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m */,
+				964AD74620F3BCE600903B79 /* DMRBridgeConcreteImplementorA.h */,
+				964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */,
+				964AD74920F3C04A00903B79 /* DMRBridgeConcreteImplementorB.h */,
+				964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */,
+				964AD74C20F3C0E900903B79 /* DMRBridgeClient.h */,
+				964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */,
+				964AD73820F3985600903B79 /* Resource */,
+			);
+			path = IOS_BridgeMode;
+			sourceTree = "<group>";
+		};
+		964AD73820F3985600903B79 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				964AD73B20F39ABB00903B79 /* bridge.png */,
+				964AD73D20F3A89300903B79 /* bridge2.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -555,6 +604,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964AD73A20F3987600903B79 /* IOS_BridgeMode_README.md in Resources */,
 				963EC99220F119DD0089A3CE /* composite0.png in Resources */,
 				045F548E20EF131100B0327A /* 1.png in Resources */,
 				963EC98E20F110720089A3CE /* composite1.png in Resources */,
@@ -564,6 +614,7 @@
 				963EC96020F09BE70089A3CE /* facade.png in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
 				963EC97420F0D2E70089A3CE /* decorator.png in Resources */,
+				964AD73C20F39ABB00903B79 /* bridge.png in Resources */,
 				045F548920EF12DC00B0327A /* class.png in Resources */,
 				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
 				045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */,
@@ -571,6 +622,7 @@
 				963EC99020F1188F0089A3CE /* composite3.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
 				963EC96B20F0AB3F0089A3CE /* 1.png in Resources */,
+				964AD73E20F3A89300903B79 /* bridge2.png in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
 				963EC98D20F110720089A3CE /* composite2.png in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
@@ -606,10 +658,14 @@
 				045F549B20EF1FAB00B0327A /* DMRAdaptee.m in Sources */,
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
 				963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */,
+				964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */,
+				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
+				964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
 				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
 				963EC96320F0A8410089A3CE /* DMRSystemOne.m in Sources */,
+				964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */,
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
 				045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */,
 				963EC98420F0E1AC0089A3CE /* DMRDecoratorTest.m in Sources */,
