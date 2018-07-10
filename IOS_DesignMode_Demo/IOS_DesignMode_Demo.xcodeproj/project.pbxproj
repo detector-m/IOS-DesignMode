@@ -68,6 +68,13 @@
 		964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */; };
 		964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */; };
 		964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */; };
+		9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1B720F4F98A00888D48 /* IOS_ObserverMode_README.md */; };
+		9657E1BC20F4FABA00888D48 /* observer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1B920F4FABA00888D48 /* observer1.png */; };
+		9657E1BD20F4FABA00888D48 /* observer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1BA20F4FABA00888D48 /* observer2.png */; };
+		9657E1BE20F4FABA00888D48 /* observer3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1BB20F4FABA00888D48 /* observer3.png */; };
+		9657E1C320F5037E00888D48 /* DMRObserverConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657E1C220F5037E00888D48 /* DMRObserverConcreteObserver.m */; };
+		9657E1C620F5038E00888D48 /* DMRObserverConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657E1C520F5038E00888D48 /* DMRObserverConcreteSubject.m */; };
+		9657E1C920F5086500888D48 /* DMRObserverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657E1C820F5086500888D48 /* DMRObserverClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +201,18 @@
 		964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeConcreteImplementorB.m; sourceTree = "<group>"; };
 		964AD74C20F3C0E900903B79 /* DMRBridgeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeClient.h; sourceTree = "<group>"; };
 		964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeClient.m; sourceTree = "<group>"; };
+		9657E1B720F4F98A00888D48 /* IOS_ObserverMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_ObserverMode_README.md; sourceTree = "<group>"; };
+		9657E1B920F4FABA00888D48 /* observer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer1.png; sourceTree = "<group>"; };
+		9657E1BA20F4FABA00888D48 /* observer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer2.png; sourceTree = "<group>"; };
+		9657E1BB20F4FABA00888D48 /* observer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer3.png; sourceTree = "<group>"; };
+		9657E1BF20F502E600888D48 /* DMRObserverObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObserverObserver.h; sourceTree = "<group>"; };
+		9657E1C020F5030900888D48 /* DMRObserverSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObserverSubject.h; sourceTree = "<group>"; };
+		9657E1C120F5037E00888D48 /* DMRObserverConcreteObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObserverConcreteObserver.h; sourceTree = "<group>"; };
+		9657E1C220F5037E00888D48 /* DMRObserverConcreteObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRObserverConcreteObserver.m; sourceTree = "<group>"; };
+		9657E1C420F5038E00888D48 /* DMRObserverConcreteSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObserverConcreteSubject.h; sourceTree = "<group>"; };
+		9657E1C520F5038E00888D48 /* DMRObserverConcreteSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRObserverConcreteSubject.m; sourceTree = "<group>"; };
+		9657E1C720F5086500888D48 /* DMRObserverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObserverClient.h; sourceTree = "<group>"; };
+		9657E1C820F5086500888D48 /* DMRObserverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRObserverClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +263,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9657E1B520F4F95500888D48 /* IOS_ObserverMode */,
 				964AD73720F3984000903B79 /* IOS_BridgeMode */,
 				963EC98520F10E120089A3CE /* IOS_CompositeMode */,
 				963EC96F20F0CDA00089A3CE /* IOS_DecoratorMode */,
@@ -501,6 +521,33 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		9657E1B520F4F95500888D48 /* IOS_ObserverMode */ = {
+			isa = PBXGroup;
+			children = (
+				9657E1B720F4F98A00888D48 /* IOS_ObserverMode_README.md */,
+				9657E1BF20F502E600888D48 /* DMRObserverObserver.h */,
+				9657E1C020F5030900888D48 /* DMRObserverSubject.h */,
+				9657E1C120F5037E00888D48 /* DMRObserverConcreteObserver.h */,
+				9657E1C220F5037E00888D48 /* DMRObserverConcreteObserver.m */,
+				9657E1C420F5038E00888D48 /* DMRObserverConcreteSubject.h */,
+				9657E1C520F5038E00888D48 /* DMRObserverConcreteSubject.m */,
+				9657E1C720F5086500888D48 /* DMRObserverClient.h */,
+				9657E1C820F5086500888D48 /* DMRObserverClient.m */,
+				9657E1B620F4F97500888D48 /* Resource */,
+			);
+			path = IOS_ObserverMode;
+			sourceTree = "<group>";
+		};
+		9657E1B620F4F97500888D48 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9657E1B920F4FABA00888D48 /* observer1.png */,
+				9657E1BA20F4FABA00888D48 /* observer2.png */,
+				9657E1BB20F4FABA00888D48 /* observer3.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -608,6 +655,7 @@
 				963EC99220F119DD0089A3CE /* composite0.png in Resources */,
 				045F548E20EF131100B0327A /* 1.png in Resources */,
 				963EC98E20F110720089A3CE /* composite1.png in Resources */,
+				9657E1BE20F4FABA00888D48 /* observer3.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
 				045F548A20EF12DC00B0327A /* object.png in Resources */,
 				963EC98A20F10E7D0089A3CE /* IOS_CompositeMode_README.md in Resources */,
@@ -618,6 +666,8 @@
 				045F548920EF12DC00B0327A /* class.png in Resources */,
 				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
 				045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */,
+				9657E1BD20F4FABA00888D48 /* observer2.png in Resources */,
+				9657E1BC20F4FABA00888D48 /* observer1.png in Resources */,
 				963EC95E20F09B7D0089A3CE /* IOA_FacadeMode_README.md in Resources */,
 				963EC99020F1188F0089A3CE /* composite3.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
@@ -627,6 +677,7 @@
 				963EC98D20F110720089A3CE /* composite2.png in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
 				045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */,
+				9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */,
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
 				045F54A120EF4C8000B0327A /* proxy.png in Resources */,
 			);
@@ -659,6 +710,7 @@
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
 				963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */,
 				964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */,
+				9657E1C320F5037E00888D48 /* DMRObserverConcreteObserver.m in Sources */,
 				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
 				964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
@@ -669,6 +721,7 @@
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
 				045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */,
 				963EC98420F0E1AC0089A3CE /* DMRDecoratorTest.m in Sources */,
+				9657E1C620F5038E00888D48 /* DMRObserverConcreteSubject.m in Sources */,
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
 				045F54A520EF511C00B0327A /* DMRProxy.m in Sources */,
 				045F549720EF1BF200B0327A /* DMRNormalTarget.m in Sources */,
@@ -685,6 +738,7 @@
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,
 				963EC97B20F0DACC0089A3CE /* DMRDecorator.m in Sources */,
 				045F547120EE035C00B0327A /* DMRDirector.m in Sources */,
+				9657E1C920F5086500888D48 /* DMRObserverClient.m in Sources */,
 				963EC96920F0A8640089A3CE /* DMRSystemThree.m in Sources */,
 				963DEEB120F1B3B1008FD02C /* DMRCompositeComponent.m in Sources */,
 			);

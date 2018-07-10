@@ -26,6 +26,8 @@
 
 #import "DMRBridgeClient.h"
 
+#import "DMRObserverClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -48,6 +50,9 @@
 - (void)testCompositeMode;
 // 桥接模式
 - (void)testBridgeMode;
+
+// 观察者模式
+- (void)testObserverMode;
 @end
 
 @implementation AppDelegate
@@ -73,7 +78,10 @@
     
 //    [self testCompositeMode];
     
-    [self testBridgeMode];
+//    [self testBridgeMode];
+    
+    
+    [self testObserverMode];
     
     return YES;
 }
@@ -188,5 +196,9 @@
 
 - (void)testBridgeMode {
     [[DMRBridgeClient new] test];
+}
+
+- (void)testObserverMode {
+    [[DMRObserverClient new] test];
 }
 @end
