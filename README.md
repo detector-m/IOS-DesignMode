@@ -77,6 +77,7 @@ A类的对象在创建时不会立即创建B类的对象，而是等待一个外
 [单例模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_%20SingletonMode/IOS_SingletonMode_README.md)
 
 ### 结构型模式
+
 [适配器模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_AdapterMode/IOS_AdapterMode_README.md)
 
 [代理模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_ProxyMode/IOS_ProxyMode_READMD.md)
@@ -88,6 +89,10 @@ A类的对象在创建时不会立即创建B类的对象，而是等待一个外
 [组合模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_CompositeMode/IOS_CompositeMode_README.md)
 
 [桥接模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_BridgeMode/IOS_BridgeMode_README.md)
+
+### 行为型模式
+
+[观察者模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_ObserverMode/IOS_ObserverMode_README.md)
 
 ### 参考
 [23种设计模式汇总整理](https://blog.csdn.net/jason0539/article/details/44956775)
