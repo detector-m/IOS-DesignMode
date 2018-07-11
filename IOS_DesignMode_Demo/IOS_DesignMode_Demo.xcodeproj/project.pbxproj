@@ -75,6 +75,13 @@
 		9657E1C320F5037E00888D48 /* DMRObserverConcreteObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657E1C220F5037E00888D48 /* DMRObserverConcreteObserver.m */; };
 		9657E1C620F5038E00888D48 /* DMRObserverConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657E1C520F5038E00888D48 /* DMRObserverConcreteSubject.m */; };
 		9657E1C920F5086500888D48 /* DMRObserverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9657E1C820F5086500888D48 /* DMRObserverClient.m */; };
+		967139B820F63C60006FBFC8 /* IOS_StrategeyMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 967139B720F63C60006FBFC8 /* IOS_StrategeyMode_README.md */; };
+		967139BB20F63D07006FBFC8 /* strategy.png in Resources */ = {isa = PBXBuildFile; fileRef = 967139BA20F63D07006FBFC8 /* strategy.png */; };
+		967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139BE20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m */; };
+		967139C220F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139C120F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m */; };
+		967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139C420F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m */; };
+		967139C820F64810006FBFC8 /* DMRStrategyContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139C720F64810006FBFC8 /* DMRStrategyContext.m */; };
+		967139CB20F64938006FBFC8 /* DMRStrategyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139CA20F64938006FBFC8 /* DMRStrategyClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +220,19 @@
 		9657E1C520F5038E00888D48 /* DMRObserverConcreteSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRObserverConcreteSubject.m; sourceTree = "<group>"; };
 		9657E1C720F5086500888D48 /* DMRObserverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRObserverClient.h; sourceTree = "<group>"; };
 		9657E1C820F5086500888D48 /* DMRObserverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRObserverClient.m; sourceTree = "<group>"; };
+		967139B720F63C60006FBFC8 /* IOS_StrategeyMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_StrategeyMode_README.md; sourceTree = "<group>"; };
+		967139BA20F63D07006FBFC8 /* strategy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strategy.png; sourceTree = "<group>"; };
+		967139BC20F64635006FBFC8 /* DMRStrategyStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyStrategy.h; sourceTree = "<group>"; };
+		967139BD20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyConcreteStrategy.h; sourceTree = "<group>"; };
+		967139BE20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyConcreteStrategy.m; sourceTree = "<group>"; };
+		967139C020F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyConcreteStrategyOne.h; sourceTree = "<group>"; };
+		967139C120F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyConcreteStrategyOne.m; sourceTree = "<group>"; };
+		967139C320F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyConcreteStrategyTwo.h; sourceTree = "<group>"; };
+		967139C420F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyConcreteStrategyTwo.m; sourceTree = "<group>"; };
+		967139C620F64810006FBFC8 /* DMRStrategyContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyContext.h; sourceTree = "<group>"; };
+		967139C720F64810006FBFC8 /* DMRStrategyContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyContext.m; sourceTree = "<group>"; };
+		967139C920F64938006FBFC8 /* DMRStrategyClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyClient.h; sourceTree = "<group>"; };
+		967139CA20F64938006FBFC8 /* DMRStrategyClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +283,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				967139B620F63C20006FBFC8 /* IOS_StrategeyMode */,
 				9657E1B520F4F95500888D48 /* IOS_ObserverMode */,
 				964AD73720F3984000903B79 /* IOS_BridgeMode */,
 				963EC98520F10E120089A3CE /* IOS_CompositeMode */,
@@ -548,6 +569,34 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		967139B620F63C20006FBFC8 /* IOS_StrategeyMode */ = {
+			isa = PBXGroup;
+			children = (
+				967139B720F63C60006FBFC8 /* IOS_StrategeyMode_README.md */,
+				967139BC20F64635006FBFC8 /* DMRStrategyStrategy.h */,
+				967139BD20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.h */,
+				967139BE20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m */,
+				967139C020F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.h */,
+				967139C120F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m */,
+				967139C320F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.h */,
+				967139C420F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m */,
+				967139C620F64810006FBFC8 /* DMRStrategyContext.h */,
+				967139C720F64810006FBFC8 /* DMRStrategyContext.m */,
+				967139C920F64938006FBFC8 /* DMRStrategyClient.h */,
+				967139CA20F64938006FBFC8 /* DMRStrategyClient.m */,
+				967139B920F63C72006FBFC8 /* Resource */,
+			);
+			path = IOS_StrategeyMode;
+			sourceTree = "<group>";
+		};
+		967139B920F63C72006FBFC8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				967139BA20F63D07006FBFC8 /* strategy.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -675,8 +724,10 @@
 				964AD73E20F3A89300903B79 /* bridge2.png in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
 				963EC98D20F110720089A3CE /* composite2.png in Resources */,
+				967139B820F63C60006FBFC8 /* IOS_StrategeyMode_README.md in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
 				045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */,
+				967139BB20F63D07006FBFC8 /* strategy.png in Resources */,
 				9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */,
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
 				045F54A120EF4C8000B0327A /* proxy.png in Resources */,
@@ -706,6 +757,7 @@
 			files = (
 				045F543820EDFA8800B0327A /* ViewController.m in Sources */,
 				045F546E20EDFE7E00B0327A /* DMRProduct.m in Sources */,
+				967139C820F64810006FBFC8 /* DMRStrategyContext.m in Sources */,
 				045F549B20EF1FAB00B0327A /* DMRAdaptee.m in Sources */,
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
 				963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */,
@@ -714,6 +766,7 @@
 				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
 				964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
+				967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
 				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
 				963EC96320F0A8410089A3CE /* DMRSystemOne.m in Sources */,
@@ -725,7 +778,9 @@
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
 				045F54A520EF511C00B0327A /* DMRProxy.m in Sources */,
 				045F549720EF1BF200B0327A /* DMRNormalTarget.m in Sources */,
+				967139C220F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m in Sources */,
 				960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */,
+				967139CB20F64938006FBFC8 /* DMRStrategyClient.m in Sources */,
 				963EC96620F0A8560089A3CE /* DMRSystemTwo.m in Sources */,
 				045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */,
 				963EC96E20F0AD770089A3CE /* DMRFacade.m in Sources */,
@@ -736,6 +791,7 @@
 				045F543520EDFA8800B0327A /* AppDelegate.m in Sources */,
 				963EC97820F0D95A0089A3CE /* DMRContreteComponent.m in Sources */,
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,
+				967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */,
 				963EC97B20F0DACC0089A3CE /* DMRDecorator.m in Sources */,
 				045F547120EE035C00B0327A /* DMRDirector.m in Sources */,
 				9657E1C920F5086500888D48 /* DMRObserverClient.m in Sources */,

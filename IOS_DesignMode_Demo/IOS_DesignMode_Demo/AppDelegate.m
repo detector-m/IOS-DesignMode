@@ -28,6 +28,8 @@
 
 #import "DMRObserverClient.h"
 
+#import "DMRStrategyClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -53,6 +55,9 @@
 
 // 观察者模式
 - (void)testObserverMode;
+
+// 策略模式
+- (void)testStrategyMode;
 @end
 
 @implementation AppDelegate
@@ -81,7 +86,9 @@
 //    [self testBridgeMode];
     
     
-    [self testObserverMode];
+//    [self testObserverMode];
+    
+    [self testStrategyMode];
     
     return YES;
 }
@@ -200,5 +207,9 @@
 
 - (void)testObserverMode {
     [[DMRObserverClient new] test];
+}
+
+- (void)testStrategyMode {
+    [[DMRStrategyClient new] test];
 }
 @end
