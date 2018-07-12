@@ -68,6 +68,12 @@
 		964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */; };
 		964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */; };
 		964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */; };
+		9655186B20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9655186A20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md */; };
+		9655186F20F79BED005E877B /* chain3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9655186C20F79BEC005E877B /* chain3.png */; };
+		9655187020F79BED005E877B /* chain1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9655186D20F79BED005E877B /* chain1.png */; };
+		9655187120F79BED005E877B /* chain2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9655186E20F79BED005E877B /* chain2.png */; };
+		9655187520F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655187420F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m */; };
+		9655187820F7A7EC005E877B /* DMRChainOfResponsibilityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655187720F7A7EC005E877B /* DMRChainOfResponsibilityClient.m */; };
 		9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1B720F4F98A00888D48 /* IOS_ObserverMode_README.md */; };
 		9657E1BC20F4FABA00888D48 /* observer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1B920F4FABA00888D48 /* observer1.png */; };
 		9657E1BD20F4FABA00888D48 /* observer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9657E1BA20F4FABA00888D48 /* observer2.png */; };
@@ -208,6 +214,15 @@
 		964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeConcreteImplementorB.m; sourceTree = "<group>"; };
 		964AD74C20F3C0E900903B79 /* DMRBridgeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeClient.h; sourceTree = "<group>"; };
 		964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeClient.m; sourceTree = "<group>"; };
+		9655186A20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_ChainOfResponsibilityMode_README.md; sourceTree = "<group>"; };
+		9655186C20F79BEC005E877B /* chain3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain3.png; sourceTree = "<group>"; };
+		9655186D20F79BED005E877B /* chain1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain1.png; sourceTree = "<group>"; };
+		9655186E20F79BED005E877B /* chain2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain2.png; sourceTree = "<group>"; };
+		9655187220F7A60E005E877B /* DMRChainOfResonsibilityHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRChainOfResonsibilityHandler.h; sourceTree = "<group>"; };
+		9655187320F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRChainOfResponsibilityConcreteHandler.h; sourceTree = "<group>"; };
+		9655187420F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRChainOfResponsibilityConcreteHandler.m; sourceTree = "<group>"; };
+		9655187620F7A7EC005E877B /* DMRChainOfResponsibilityClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRChainOfResponsibilityClient.h; sourceTree = "<group>"; };
+		9655187720F7A7EC005E877B /* DMRChainOfResponsibilityClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRChainOfResponsibilityClient.m; sourceTree = "<group>"; };
 		9657E1B720F4F98A00888D48 /* IOS_ObserverMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_ObserverMode_README.md; sourceTree = "<group>"; };
 		9657E1B920F4FABA00888D48 /* observer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer1.png; sourceTree = "<group>"; };
 		9657E1BA20F4FABA00888D48 /* observer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer2.png; sourceTree = "<group>"; };
@@ -283,6 +298,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9655186820F79601005E877B /* IOS_ChainOfResponsibilityMode */,
 				967139B620F63C20006FBFC8 /* IOS_StrategeyMode */,
 				9657E1B520F4F95500888D48 /* IOS_ObserverMode */,
 				964AD73720F3984000903B79 /* IOS_BridgeMode */,
@@ -542,6 +558,30 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		9655186820F79601005E877B /* IOS_ChainOfResponsibilityMode */ = {
+			isa = PBXGroup;
+			children = (
+				9655186A20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md */,
+				9655187220F7A60E005E877B /* DMRChainOfResonsibilityHandler.h */,
+				9655187320F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.h */,
+				9655187420F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m */,
+				9655187620F7A7EC005E877B /* DMRChainOfResponsibilityClient.h */,
+				9655187720F7A7EC005E877B /* DMRChainOfResponsibilityClient.m */,
+				9655186920F79638005E877B /* Resource */,
+			);
+			path = IOS_ChainOfResponsibilityMode;
+			sourceTree = "<group>";
+		};
+		9655186920F79638005E877B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9655186D20F79BED005E877B /* chain1.png */,
+				9655186E20F79BED005E877B /* chain2.png */,
+				9655186C20F79BEC005E877B /* chain3.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		9657E1B520F4F95500888D48 /* IOS_ObserverMode */ = {
 			isa = PBXGroup;
 			children = (
@@ -715,8 +755,10 @@
 				045F548920EF12DC00B0327A /* class.png in Resources */,
 				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
 				045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */,
+				9655187120F79BED005E877B /* chain2.png in Resources */,
 				9657E1BD20F4FABA00888D48 /* observer2.png in Resources */,
 				9657E1BC20F4FABA00888D48 /* observer1.png in Resources */,
+				9655187020F79BED005E877B /* chain1.png in Resources */,
 				963EC95E20F09B7D0089A3CE /* IOA_FacadeMode_README.md in Resources */,
 				963EC99020F1188F0089A3CE /* composite3.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
@@ -726,7 +768,9 @@
 				963EC98D20F110720089A3CE /* composite2.png in Resources */,
 				967139B820F63C60006FBFC8 /* IOS_StrategeyMode_README.md in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
+				9655186B20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md in Resources */,
 				045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */,
+				9655186F20F79BED005E877B /* chain3.png in Resources */,
 				967139BB20F63D07006FBFC8 /* strategy.png in Resources */,
 				9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */,
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
@@ -765,6 +809,7 @@
 				9657E1C320F5037E00888D48 /* DMRObserverConcreteObserver.m in Sources */,
 				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
 				964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */,
+				9655187520F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
 				967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
@@ -792,6 +837,7 @@
 				963EC97820F0D95A0089A3CE /* DMRContreteComponent.m in Sources */,
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,
 				967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */,
+				9655187820F7A7EC005E877B /* DMRChainOfResponsibilityClient.m in Sources */,
 				963EC97B20F0DACC0089A3CE /* DMRDecorator.m in Sources */,
 				045F547120EE035C00B0327A /* DMRDirector.m in Sources */,
 				9657E1C920F5086500888D48 /* DMRObserverClient.m in Sources */,

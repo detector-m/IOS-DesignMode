@@ -30,6 +30,8 @@
 
 #import "DMRStrategyClient.h"
 
+#import "DMRChainOfResponsibilityClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -58,6 +60,9 @@
 
 // 策略模式
 - (void)testStrategyMode;
+
+// 责任链模式
+- (void)testChainOfResponsibilityMode;
 @end
 
 @implementation AppDelegate
@@ -88,7 +93,9 @@
     
 //    [self testObserverMode];
     
-    [self testStrategyMode];
+//    [self testStrategyMode];
+    
+    [self testChainOfResponsibilityMode];
     
     return YES;
 }
@@ -211,5 +218,9 @@
 
 - (void)testStrategyMode {
     [[DMRStrategyClient new] test];
+}
+
+- (void)testChainOfResponsibilityMode {
+    [[DMRChainOfResponsibilityClient new] test];
 }
 @end
