@@ -34,6 +34,8 @@
 
 #import "DMRStateClient.h"
 
+#import "DMRVisitorClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -68,6 +70,9 @@
 
 // 状态模式
 - (void)testStateMode;
+
+// 访问者模式
+- (void)testVisitorMode;
 @end
 
 @implementation AppDelegate
@@ -102,7 +107,9 @@
     
 //    [self testChainOfResponsibilityMode];
     
-    [self testStateMode];
+//    [self testStateMode];
+    
+    [self testVisitorMode];
     
     return YES;
 }
@@ -233,5 +240,9 @@
 
 - (void)testStateMode {
     [[DMRStateClient new] test];
+}
+
+- (void)testVisitorMode {
+    [[DMRVisitorClient new] test];
 }
 @end

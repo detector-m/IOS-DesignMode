@@ -38,6 +38,11 @@
 		045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F54A720EF51BF00B0327A /* DMRConsignor.m */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
+		9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494420FB907A0066F326 /* DMRVisitorConcreteVisitor.m */; };
+		9627494820FB90890066F326 /* DMRVisitorConcreteElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494720FB90890066F326 /* DMRVisitorConcreteElement.m */; };
+		9627494B20FB939E0066F326 /* DMRVisitorConcreteElementOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494A20FB939E0066F326 /* DMRVisitorConcreteElementOne.m */; };
+		9627494E20FB94140066F326 /* DMRVisitorObjectStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494D20FB94140066F326 /* DMRVisitorObjectStruct.m */; };
+		9627495120FB97120066F326 /* DMRVisitorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627495020FB97120066F326 /* DMRVisitorClient.m */; };
 		963AB2E620FB049700CBAA31 /* IOS_StateMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 963AB2E520FB049700CBAA31 /* IOS_StateMode_README.md */; };
 		963AB2E920FB0ADA00CBAA31 /* state.png in Resources */ = {isa = PBXBuildFile; fileRef = 963AB2E720FB0ADA00CBAA31 /* state.png */; };
 		963AB2EA20FB0ADA00CBAA31 /* state1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963AB2E820FB0ADA00CBAA31 /* state1.png */; };
@@ -46,6 +51,9 @@
 		963AB2F420FB1D5A00CBAA31 /* DMRStateConcreteStateOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AB2F320FB1D5A00CBAA31 /* DMRStateConcreteStateOne.m */; };
 		963AB2F720FB1D6D00CBAA31 /* DMRStateConcreteStateTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AB2F620FB1D6D00CBAA31 /* DMRStateConcreteStateTwo.m */; };
 		963AB2FA20FB223400CBAA31 /* DMRStateClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AB2F920FB223400CBAA31 /* DMRStateClient.m */; };
+		963AB2FD20FB2DA600CBAA31 /* IOS_VisitorMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 963AB2FC20FB2DA600CBAA31 /* IOS_VisitorMode_README.md */; };
+		963AB30120FB2E3800CBAA31 /* visitor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963AB2FF20FB2E3800CBAA31 /* visitor1.png */; };
+		963AB30220FB2E3800CBAA31 /* visitor.png in Resources */ = {isa = PBXBuildFile; fileRef = 963AB30020FB2E3800CBAA31 /* visitor.png */; };
 		963DEEB120F1B3B1008FD02C /* DMRCompositeComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB020F1B3B1008FD02C /* DMRCompositeComponent.m */; };
 		963DEEB420F1BAAA008FD02C /* DMRCompositeLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB320F1BAAA008FD02C /* DMRCompositeLeaf.m */; };
 		963DEEB720F1BC00008FD02C /* DMRCompositeComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = 963DEEB620F1BC00008FD02C /* DMRCompositeComposite.m */; };
@@ -172,6 +180,18 @@
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
 		960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingletonSecond.m; sourceTree = "<group>"; };
+		9627494120FB90190066F326 /* DMRVisitorVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorVisitor.h; sourceTree = "<group>"; };
+		9627494220FB90440066F326 /* DMRVisitorElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorElement.h; sourceTree = "<group>"; };
+		9627494320FB907A0066F326 /* DMRVisitorConcreteVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorConcreteVisitor.h; sourceTree = "<group>"; };
+		9627494420FB907A0066F326 /* DMRVisitorConcreteVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorConcreteVisitor.m; sourceTree = "<group>"; };
+		9627494620FB90890066F326 /* DMRVisitorConcreteElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorConcreteElement.h; sourceTree = "<group>"; };
+		9627494720FB90890066F326 /* DMRVisitorConcreteElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorConcreteElement.m; sourceTree = "<group>"; };
+		9627494920FB939E0066F326 /* DMRVisitorConcreteElementOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorConcreteElementOne.h; sourceTree = "<group>"; };
+		9627494A20FB939E0066F326 /* DMRVisitorConcreteElementOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorConcreteElementOne.m; sourceTree = "<group>"; };
+		9627494C20FB94140066F326 /* DMRVisitorObjectStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorObjectStruct.h; sourceTree = "<group>"; };
+		9627494D20FB94140066F326 /* DMRVisitorObjectStruct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorObjectStruct.m; sourceTree = "<group>"; };
+		9627494F20FB97120066F326 /* DMRVisitorClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorClient.h; sourceTree = "<group>"; };
+		9627495020FB97120066F326 /* DMRVisitorClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorClient.m; sourceTree = "<group>"; };
 		963AB2E520FB049700CBAA31 /* IOS_StateMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_StateMode_README.md; sourceTree = "<group>"; };
 		963AB2E720FB0ADA00CBAA31 /* state.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state.png; sourceTree = "<group>"; };
 		963AB2E820FB0ADA00CBAA31 /* state1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state1.png; sourceTree = "<group>"; };
@@ -186,6 +206,9 @@
 		963AB2F620FB1D6D00CBAA31 /* DMRStateConcreteStateTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStateConcreteStateTwo.m; sourceTree = "<group>"; };
 		963AB2F820FB223400CBAA31 /* DMRStateClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStateClient.h; sourceTree = "<group>"; };
 		963AB2F920FB223400CBAA31 /* DMRStateClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStateClient.m; sourceTree = "<group>"; };
+		963AB2FC20FB2DA600CBAA31 /* IOS_VisitorMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_VisitorMode_README.md; sourceTree = "<group>"; };
+		963AB2FF20FB2E3800CBAA31 /* visitor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitor1.png; sourceTree = "<group>"; };
+		963AB30020FB2E3800CBAA31 /* visitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitor.png; sourceTree = "<group>"; };
 		963DEEAF20F1B3B1008FD02C /* DMRCompositeComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRCompositeComponent.h; sourceTree = "<group>"; };
 		963DEEB020F1B3B1008FD02C /* DMRCompositeComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRCompositeComponent.m; sourceTree = "<group>"; };
 		963DEEB220F1BAAA008FD02C /* DMRCompositeLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRCompositeLeaf.h; sourceTree = "<group>"; };
@@ -320,6 +343,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				963AB2FB20FB2D3900CBAA31 /* IOS_VisitorMode */,
 				963AB2E320FB046000CBAA31 /* IOS_StateMode */,
 				9655186820F79601005E877B /* IOS_ChainOfResponsibilityMode */,
 				967139B620F63C20006FBFC8 /* IOS_StrategeyMode */,
@@ -497,6 +521,36 @@
 			children = (
 				963AB2E720FB0ADA00CBAA31 /* state.png */,
 				963AB2E820FB0ADA00CBAA31 /* state1.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		963AB2FB20FB2D3900CBAA31 /* IOS_VisitorMode */ = {
+			isa = PBXGroup;
+			children = (
+				963AB2FC20FB2DA600CBAA31 /* IOS_VisitorMode_README.md */,
+				9627494120FB90190066F326 /* DMRVisitorVisitor.h */,
+				9627494220FB90440066F326 /* DMRVisitorElement.h */,
+				9627494320FB907A0066F326 /* DMRVisitorConcreteVisitor.h */,
+				9627494420FB907A0066F326 /* DMRVisitorConcreteVisitor.m */,
+				9627494620FB90890066F326 /* DMRVisitorConcreteElement.h */,
+				9627494720FB90890066F326 /* DMRVisitorConcreteElement.m */,
+				9627494920FB939E0066F326 /* DMRVisitorConcreteElementOne.h */,
+				9627494A20FB939E0066F326 /* DMRVisitorConcreteElementOne.m */,
+				9627494C20FB94140066F326 /* DMRVisitorObjectStruct.h */,
+				9627494D20FB94140066F326 /* DMRVisitorObjectStruct.m */,
+				9627494F20FB97120066F326 /* DMRVisitorClient.h */,
+				9627495020FB97120066F326 /* DMRVisitorClient.m */,
+				963AB2FE20FB2DAC00CBAA31 /* Resource */,
+			);
+			path = IOS_VisitorMode;
+			sourceTree = "<group>";
+		};
+		963AB2FE20FB2DAC00CBAA31 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				963AB30020FB2E3800CBAA31 /* visitor.png */,
+				963AB2FF20FB2E3800CBAA31 /* visitor1.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -803,10 +857,13 @@
 				963AB2E920FB0ADA00CBAA31 /* state.png in Resources */,
 				963EC96020F09BE70089A3CE /* facade.png in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
+				963AB30220FB2E3800CBAA31 /* visitor.png in Resources */,
+				963AB2FD20FB2DA600CBAA31 /* IOS_VisitorMode_README.md in Resources */,
 				963EC97420F0D2E70089A3CE /* decorator.png in Resources */,
 				964AD73C20F39ABB00903B79 /* bridge.png in Resources */,
 				045F548920EF12DC00B0327A /* class.png in Resources */,
 				045F547720EE0FE000B0327A /* IOS_PrototypeMode_README.md in Resources */,
+				963AB30120FB2E3800CBAA31 /* visitor1.png in Resources */,
 				045F548120EE211500B0327A /* IOS_SingletonMode_README.md in Resources */,
 				9655187120F79BED005E877B /* chain2.png in Resources */,
 				9657E1BD20F4FABA00888D48 /* observer2.png in Resources */,
@@ -854,9 +911,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */,
 				045F543820EDFA8800B0327A /* ViewController.m in Sources */,
 				963AB2EE20FB1D1400CBAA31 /* DMRStateContext.m in Sources */,
 				045F546E20EDFE7E00B0327A /* DMRProduct.m in Sources */,
+				9627494820FB90890066F326 /* DMRVisitorConcreteElement.m in Sources */,
+				9627495120FB97120066F326 /* DMRVisitorClient.m in Sources */,
 				967139C820F64810006FBFC8 /* DMRStrategyContext.m in Sources */,
 				045F549B20EF1FAB00B0327A /* DMRAdaptee.m in Sources */,
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
@@ -866,6 +926,7 @@
 				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
 				964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */,
 				9655187520F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m in Sources */,
+				9627494E20FB94140066F326 /* DMRVisitorObjectStruct.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
 				967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
@@ -879,6 +940,7 @@
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
 				963AB2F720FB1D6D00CBAA31 /* DMRStateConcreteStateTwo.m in Sources */,
 				045F54A520EF511C00B0327A /* DMRProxy.m in Sources */,
+				9627494B20FB939E0066F326 /* DMRVisitorConcreteElementOne.m in Sources */,
 				045F549720EF1BF200B0327A /* DMRNormalTarget.m in Sources */,
 				963AB2FA20FB223400CBAA31 /* DMRStateClient.m in Sources */,
 				967139C220F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m in Sources */,
