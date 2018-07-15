@@ -6,7 +6,7 @@
 类型：创建类模式
 
 ## 类图
-![原型模式类图](./Resource/1.png)
+![原型模式类图](./Resource/prototype.png)
 
 ## 作用
 原型模式主要用于对象的复制，它的核心是就是类图中的原型类Prototype。
