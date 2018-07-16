@@ -36,6 +36,8 @@
 
 #import "DMRVisitorClient.h"
 
+#import "DMRMediatorClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -73,6 +75,9 @@
 
 // 访问者模式
 - (void)testVisitorMode;
+
+// 中介者模式
+- (void)testMediatorMode;
 @end
 
 @implementation AppDelegate
@@ -109,7 +114,9 @@
     
 //    [self testStateMode];
     
-    [self testVisitorMode];
+//    [self testVisitorMode];
+    
+    [self testMediatorMode];
     
     return YES;
 }
@@ -244,5 +251,9 @@
 
 - (void)testVisitorMode {
     [[DMRVisitorClient new] test];
+}
+
+- (void)testMediatorMode {
+    [[DMRMediatorClient new] test];
 }
 @end
