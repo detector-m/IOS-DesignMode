@@ -106,6 +106,8 @@ A类的对象在创建时不会立即创建B类的对象，而是等待一个外
 
 [命令模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_CommandMode/IOS_CommandMode_README.md)
 
+[迭代子模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_IteratorMode/IOS_IteratorMode_README.md)
+
 ### 参考
 [23种设计模式汇总整理](https://blog.csdn.net/jason0539/article/details/44956775)
 
