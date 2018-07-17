@@ -58,6 +58,9 @@
 		9627494B20FB939E0066F326 /* DMRVisitorConcreteElementOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494A20FB939E0066F326 /* DMRVisitorConcreteElementOne.m */; };
 		9627494E20FB94140066F326 /* DMRVisitorObjectStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494D20FB94140066F326 /* DMRVisitorObjectStruct.m */; };
 		9627495120FB97120066F326 /* DMRVisitorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627495020FB97120066F326 /* DMRVisitorClient.m */; };
+		963A0DCF20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 963A0DCE20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md */; };
+		963A0DD320FE3D55008B0D2A /* templateMethod.png in Resources */ = {isa = PBXBuildFile; fileRef = 963A0DD120FE3D55008B0D2A /* templateMethod.png */; };
+		963A0DD420FE3D55008B0D2A /* templateMethod1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963A0DD220FE3D55008B0D2A /* templateMethod1.png */; };
 		963A550520FCDEA800A1767E /* IOS_CommandMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 963A550420FCDEA800A1767E /* IOS_CommandMode_README.md */; };
 		963A550920FCDF7500A1767E /* command.png in Resources */ = {isa = PBXBuildFile; fileRef = 963A550720FCDF7400A1767E /* command.png */; };
 		963A550A20FCDF7500A1767E /* command1.png in Resources */ = {isa = PBXBuildFile; fileRef = 963A550820FCDF7400A1767E /* command1.png */; };
@@ -242,6 +245,9 @@
 		9627494D20FB94140066F326 /* DMRVisitorObjectStruct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorObjectStruct.m; sourceTree = "<group>"; };
 		9627494F20FB97120066F326 /* DMRVisitorClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRVisitorClient.h; sourceTree = "<group>"; };
 		9627495020FB97120066F326 /* DMRVisitorClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRVisitorClient.m; sourceTree = "<group>"; };
+		963A0DCE20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_TemplateMethodMode_README.md; sourceTree = "<group>"; };
+		963A0DD120FE3D55008B0D2A /* templateMethod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templateMethod.png; sourceTree = "<group>"; };
+		963A0DD220FE3D55008B0D2A /* templateMethod1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templateMethod1.png; sourceTree = "<group>"; };
 		963A550420FCDEA800A1767E /* IOS_CommandMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_CommandMode_README.md; sourceTree = "<group>"; };
 		963A550720FCDF7400A1767E /* command.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = command.png; sourceTree = "<group>"; };
 		963A550820FCDF7400A1767E /* command1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = command1.png; sourceTree = "<group>"; };
@@ -438,6 +444,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				963A0DCD20FE3BEA008B0D2A /* IOS_TemplateMethodMode */,
 				046B2C7E20FD89CA00DFE583 /* IOS_IteratorMode */,
 				963A550320FCDE6E00A1767E /* IOS_CommandMode */,
 				0448DA9620FC374800B9B6BB /* IOS_MediatorMode */,
@@ -618,6 +625,24 @@
 				046B2C8420FD8F4A00DFE583 /* iterator1_2.png */,
 				046B2C8220FD8F4A00DFE583 /* iterator2_1.png */,
 				046B2C8520FD8F4A00DFE583 /* iterator2_2.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		963A0DCD20FE3BEA008B0D2A /* IOS_TemplateMethodMode */ = {
+			isa = PBXGroup;
+			children = (
+				963A0DCE20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md */,
+				963A0DD020FE3C37008B0D2A /* Resource */,
+			);
+			path = IOS_TemplateMethodMode;
+			sourceTree = "<group>";
+		};
+		963A0DD020FE3C37008B0D2A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				963A0DD120FE3D55008B0D2A /* templateMethod.png */,
+				963A0DD220FE3D55008B0D2A /* templateMethod1.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1009,6 +1034,7 @@
 				045F548E20EF131100B0327A /* prototype.png in Resources */,
 				963EC98E20F110720089A3CE /* composite1.png in Resources */,
 				046B2C8820FD8F4A00DFE583 /* iterator1_2.png in Resources */,
+				963A0DCF20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md in Resources */,
 				046B2C8620FD8F4A00DFE583 /* iterator2_1.png in Resources */,
 				9657E1BE20F4FABA00888D48 /* observer3.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
@@ -1033,6 +1059,7 @@
 				0448DA9B20FC38B800B9B6BB /* mediator.png in Resources */,
 				963EC95E20F09B7D0089A3CE /* IOA_FacadeMode_README.md in Resources */,
 				963EC99020F1188F0089A3CE /* composite3.png in Resources */,
+				963A0DD320FE3D55008B0D2A /* templateMethod.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
 				963EC96B20F0AB3F0089A3CE /* singleton.png in Resources */,
 				046B2C8920FD8F4A00DFE583 /* iterator2_2.png in Resources */,
@@ -1042,6 +1069,7 @@
 				963AB2EA20FB0ADA00CBAA31 /* state1.png in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
 				963EC98D20F110720089A3CE /* composite2.png in Resources */,
+				963A0DD420FE3D55008B0D2A /* templateMethod1.png in Resources */,
 				967139B820F63C60006FBFC8 /* IOS_StrategeyMode_README.md in Resources */,
 				963AB2E620FB049700CBAA31 /* IOS_StateMode_README.md in Resources */,
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
