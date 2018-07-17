@@ -43,6 +43,14 @@
 		045F54A120EF4C8000B0327A /* proxy.png in Resources */ = {isa = PBXBuildFile; fileRef = 045F54A020EF4C8000B0327A /* proxy.png */; };
 		045F54A520EF511C00B0327A /* DMRProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F54A420EF511C00B0327A /* DMRProxy.m */; };
 		045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F54A720EF51BF00B0327A /* DMRConsignor.m */; };
+		046B2C8020FD89F300DFE583 /* IOS_IteratorMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 046B2C7F20FD89F300DFE583 /* IOS_IteratorMode_README.md */; };
+		046B2C8620FD8F4A00DFE583 /* iterator2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B2C8220FD8F4A00DFE583 /* iterator2_1.png */; };
+		046B2C8720FD8F4A00DFE583 /* iterator1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B2C8320FD8F4A00DFE583 /* iterator1_1.png */; };
+		046B2C8820FD8F4A00DFE583 /* iterator1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B2C8420FD8F4A00DFE583 /* iterator1_2.png */; };
+		046B2C8920FD8F4A00DFE583 /* iterator2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 046B2C8520FD8F4A00DFE583 /* iterator2_2.png */; };
+		046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C8D20FD982900DFE583 /* DMRIteratorConcreteIterator.m */; };
+		046B2C9120FD989F00DFE583 /* DMRIteratorConcreteAggregate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */; };
+		046B2C9420FDC3C600DFE583 /* DMRIteratorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
 		9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494420FB907A0066F326 /* DMRVisitorConcreteVisitor.m */; };
@@ -205,6 +213,19 @@
 		045F54A420EF511C00B0327A /* DMRProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRProxy.m; sourceTree = "<group>"; };
 		045F54A620EF51BF00B0327A /* DMRConsignor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRConsignor.h; sourceTree = "<group>"; };
 		045F54A720EF51BF00B0327A /* DMRConsignor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRConsignor.m; sourceTree = "<group>"; };
+		046B2C7F20FD89F300DFE583 /* IOS_IteratorMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_IteratorMode_README.md; sourceTree = "<group>"; };
+		046B2C8220FD8F4A00DFE583 /* iterator2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iterator2_1.png; sourceTree = "<group>"; };
+		046B2C8320FD8F4A00DFE583 /* iterator1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iterator1_1.png; sourceTree = "<group>"; };
+		046B2C8420FD8F4A00DFE583 /* iterator1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iterator1_2.png; sourceTree = "<group>"; };
+		046B2C8520FD8F4A00DFE583 /* iterator2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iterator2_2.png; sourceTree = "<group>"; };
+		046B2C8A20FD97C500DFE583 /* DMRIteratorIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorIterator.h; sourceTree = "<group>"; };
+		046B2C8B20FD980100DFE583 /* DMRIteratorAggregate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorAggregate.h; sourceTree = "<group>"; };
+		046B2C8C20FD982900DFE583 /* DMRIteratorConcreteIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorConcreteIterator.h; sourceTree = "<group>"; };
+		046B2C8D20FD982900DFE583 /* DMRIteratorConcreteIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorConcreteIterator.m; sourceTree = "<group>"; };
+		046B2C8F20FD989F00DFE583 /* DMRIteratorConcreteAggregate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorConcreteAggregate.h; sourceTree = "<group>"; };
+		046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorConcreteAggregate.m; sourceTree = "<group>"; };
+		046B2C9220FDC3C600DFE583 /* DMRIteratorClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorClient.h; sourceTree = "<group>"; };
+		046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorClient.m; sourceTree = "<group>"; };
 		960F722E20EE589300CFFA07 /* DMRSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingleton.h; sourceTree = "<group>"; };
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
@@ -417,6 +438,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				046B2C7E20FD89CA00DFE583 /* IOS_IteratorMode */,
 				963A550320FCDE6E00A1767E /* IOS_CommandMode */,
 				0448DA9620FC374800B9B6BB /* IOS_MediatorMode */,
 				963AB2FB20FB2D3900CBAA31 /* IOS_VisitorMode */,
@@ -568,6 +590,34 @@
 			isa = PBXGroup;
 			children = (
 				045F54A020EF4C8000B0327A /* proxy.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		046B2C7E20FD89CA00DFE583 /* IOS_IteratorMode */ = {
+			isa = PBXGroup;
+			children = (
+				046B2C7F20FD89F300DFE583 /* IOS_IteratorMode_README.md */,
+				046B2C8A20FD97C500DFE583 /* DMRIteratorIterator.h */,
+				046B2C8B20FD980100DFE583 /* DMRIteratorAggregate.h */,
+				046B2C8C20FD982900DFE583 /* DMRIteratorConcreteIterator.h */,
+				046B2C8D20FD982900DFE583 /* DMRIteratorConcreteIterator.m */,
+				046B2C8F20FD989F00DFE583 /* DMRIteratorConcreteAggregate.h */,
+				046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */,
+				046B2C9220FDC3C600DFE583 /* DMRIteratorClient.h */,
+				046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */,
+				046B2C8120FD8A2500DFE583 /* Resource */,
+			);
+			path = IOS_IteratorMode;
+			sourceTree = "<group>";
+		};
+		046B2C8120FD8A2500DFE583 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				046B2C8320FD8F4A00DFE583 /* iterator1_1.png */,
+				046B2C8420FD8F4A00DFE583 /* iterator1_2.png */,
+				046B2C8220FD8F4A00DFE583 /* iterator2_1.png */,
+				046B2C8520FD8F4A00DFE583 /* iterator2_2.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -958,6 +1008,8 @@
 				963EC99220F119DD0089A3CE /* composite0.png in Resources */,
 				045F548E20EF131100B0327A /* prototype.png in Resources */,
 				963EC98E20F110720089A3CE /* composite1.png in Resources */,
+				046B2C8820FD8F4A00DFE583 /* iterator1_2.png in Resources */,
+				046B2C8620FD8F4A00DFE583 /* iterator2_1.png in Resources */,
 				9657E1BE20F4FABA00888D48 /* observer3.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
 				045F548A20EF12DC00B0327A /* object.png in Resources */,
@@ -983,7 +1035,9 @@
 				963EC99020F1188F0089A3CE /* composite3.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
 				963EC96B20F0AB3F0089A3CE /* singleton.png in Resources */,
+				046B2C8920FD8F4A00DFE583 /* iterator2_2.png in Resources */,
 				964AD73E20F3A89300903B79 /* bridge2.png in Resources */,
+				046B2C8720FD8F4A00DFE583 /* iterator1_1.png in Resources */,
 				0448DA9D20FC392500B9B6BB /* mediator1.png in Resources */,
 				963AB2EA20FB0ADA00CBAA31 /* state1.png in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
@@ -1001,6 +1055,7 @@
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
 				045F54A120EF4C8000B0327A /* proxy.png in Resources */,
 				963A550520FCDEA800A1767E /* IOS_CommandMode_README.md in Resources */,
+				046B2C8020FD89F300DFE583 /* IOS_IteratorMode_README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,6 +1092,7 @@
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
 				963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */,
 				964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */,
+				046B2C9120FD989F00DFE583 /* DMRIteratorConcreteAggregate.m in Sources */,
 				9657E1C320F5037E00888D48 /* DMRObserverConcreteObserver.m in Sources */,
 				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
 				964AD74520F3B39A00903B79 /* DMRBridgeRefinedAbstraction.m in Sources */,
@@ -1062,6 +1118,7 @@
 				963AB2FA20FB223400CBAA31 /* DMRStateClient.m in Sources */,
 				967139C220F646F9006FBFC8 /* DMRStrategyConcreteStrategyOne.m in Sources */,
 				960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */,
+				046B2C9420FDC3C600DFE583 /* DMRIteratorClient.m in Sources */,
 				967139CB20F64938006FBFC8 /* DMRStrategyClient.m in Sources */,
 				963EC96620F0A8560089A3CE /* DMRSystemTwo.m in Sources */,
 				045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */,
@@ -1070,6 +1127,7 @@
 				963DEEB420F1BAAA008FD02C /* DMRCompositeLeaf.m in Sources */,
 				960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */,
 				963DEEBA20F1BE3B008FD02C /* DMRCompositeTest.m in Sources */,
+				046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */,
 				0448DAAB20FC428E00B9B6BB /* DMRMediatorClient.m in Sources */,
 				963A551E20FCEB1100A1767E /* DMRCommandClient.m in Sources */,
 				963A551B20FCEB0200A1767E /* DMRCommandInvoker.m in Sources */,

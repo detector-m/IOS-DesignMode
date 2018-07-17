@@ -40,6 +40,8 @@
 
 #import "DMRCommandClient.h"
 
+#import "DMRIteratorClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -83,6 +85,9 @@
 
 // 命令模式
 - (void)testCommandMode;
+
+// 迭代子模式
+- (void)testIteratorMode;
 @end
 
 @implementation AppDelegate
@@ -123,7 +128,9 @@
     
 //    [self testMediatorMode];
     
-    [self testCommandMode];
+//    [self testCommandMode];
+    
+    [self testIteratorMode];
     
     return YES;
 }
@@ -266,5 +273,9 @@
 
 - (void)testCommandMode {
     [[DMRCommandClient new] test];
+}
+
+- (void)testIteratorMode {
+    [[DMRIteratorClient new] test];
 }
 @end
