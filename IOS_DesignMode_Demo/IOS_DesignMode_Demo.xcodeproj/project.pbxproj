@@ -55,6 +55,13 @@
 		04E0E39720FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39620FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m */; };
 		04E0E39A20FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */; };
 		04E0E39D20FED1450025ADF4 /* DMRTemplateMethodClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39C20FED1450025ADF4 /* DMRTemplateMethodClient.m */; };
+		04E1138820FEE06000D4ED0A /* IOS_MementoMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04E1138720FEE06000D4ED0A /* IOS_MementoMode_README.md */; };
+		04E1138C20FEE17500D4ED0A /* memento.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E1138A20FEE17500D4ED0A /* memento.png */; };
+		04E1138D20FEE17500D4ED0A /* memento1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E1138B20FEE17500D4ED0A /* memento1.png */; };
+		04E1139020FEEACC00D4ED0A /* DMRMementoOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1138F20FEEACC00D4ED0A /* DMRMementoOriginator.m */; };
+		04E1139320FEEADC00D4ED0A /* DMRMementoMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1139220FEEADC00D4ED0A /* DMRMementoMemento.m */; };
+		04E1139620FEEAFA00D4ED0A /* DMRMementoCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1139520FEEAFA00D4ED0A /* DMRMementoCaretaker.m */; };
+		04E1139920FEEB0B00D4ED0A /* DMRMementoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1139820FEEB0B00D4ED0A /* DMRMementoClient.m */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
 		9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494420FB907A0066F326 /* DMRVisitorConcreteVisitor.m */; };
@@ -241,6 +248,17 @@
 		04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodConcreteClassOne.m; sourceTree = "<group>"; };
 		04E0E39B20FED1450025ADF4 /* DMRTemplateMethodClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodClient.h; sourceTree = "<group>"; };
 		04E0E39C20FED1450025ADF4 /* DMRTemplateMethodClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodClient.m; sourceTree = "<group>"; };
+		04E1138720FEE06000D4ED0A /* IOS_MementoMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_MementoMode_README.md; sourceTree = "<group>"; };
+		04E1138A20FEE17500D4ED0A /* memento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memento.png; sourceTree = "<group>"; };
+		04E1138B20FEE17500D4ED0A /* memento1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memento1.png; sourceTree = "<group>"; };
+		04E1138E20FEEACC00D4ED0A /* DMRMementoOriginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRMementoOriginator.h; sourceTree = "<group>"; };
+		04E1138F20FEEACC00D4ED0A /* DMRMementoOriginator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMementoOriginator.m; sourceTree = "<group>"; };
+		04E1139120FEEADC00D4ED0A /* DMRMementoMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRMementoMemento.h; sourceTree = "<group>"; };
+		04E1139220FEEADC00D4ED0A /* DMRMementoMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMementoMemento.m; sourceTree = "<group>"; };
+		04E1139420FEEAFA00D4ED0A /* DMRMementoCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRMementoCaretaker.h; sourceTree = "<group>"; };
+		04E1139520FEEAFA00D4ED0A /* DMRMementoCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMementoCaretaker.m; sourceTree = "<group>"; };
+		04E1139720FEEB0B00D4ED0A /* DMRMementoClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRMementoClient.h; sourceTree = "<group>"; };
+		04E1139820FEEB0B00D4ED0A /* DMRMementoClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRMementoClient.m; sourceTree = "<group>"; };
 		960F722E20EE589300CFFA07 /* DMRSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingleton.h; sourceTree = "<group>"; };
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
@@ -456,6 +474,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				04E1138620FEE00800D4ED0A /* IOS_MementoMode */,
 				963A0DCD20FE3BEA008B0D2A /* IOS_TemplateMethodMode */,
 				046B2C7E20FD89CA00DFE583 /* IOS_IteratorMode */,
 				963A550320FCDE6E00A1767E /* IOS_CommandMode */,
@@ -637,6 +656,32 @@
 				046B2C8420FD8F4A00DFE583 /* iterator1_2.png */,
 				046B2C8220FD8F4A00DFE583 /* iterator2_1.png */,
 				046B2C8520FD8F4A00DFE583 /* iterator2_2.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04E1138620FEE00800D4ED0A /* IOS_MementoMode */ = {
+			isa = PBXGroup;
+			children = (
+				04E1138720FEE06000D4ED0A /* IOS_MementoMode_README.md */,
+				04E1138E20FEEACC00D4ED0A /* DMRMementoOriginator.h */,
+				04E1138F20FEEACC00D4ED0A /* DMRMementoOriginator.m */,
+				04E1139120FEEADC00D4ED0A /* DMRMementoMemento.h */,
+				04E1139220FEEADC00D4ED0A /* DMRMementoMemento.m */,
+				04E1139420FEEAFA00D4ED0A /* DMRMementoCaretaker.h */,
+				04E1139520FEEAFA00D4ED0A /* DMRMementoCaretaker.m */,
+				04E1139720FEEB0B00D4ED0A /* DMRMementoClient.h */,
+				04E1139820FEEB0B00D4ED0A /* DMRMementoClient.m */,
+				04E1138920FEE0C000D4ED0A /* Resource */,
+			);
+			path = IOS_MementoMode;
+			sourceTree = "<group>";
+		};
+		04E1138920FEE0C000D4ED0A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04E1138A20FEE17500D4ED0A /* memento.png */,
+				04E1138B20FEE17500D4ED0A /* memento1.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1060,6 +1105,7 @@
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
 				045F548A20EF12DC00B0327A /* object.png in Resources */,
 				963EC98A20F10E7D0089A3CE /* IOS_CompositeMode_README.md in Resources */,
+				04E1138D20FEE17500D4ED0A /* memento1.png in Resources */,
 				963AB2E920FB0ADA00CBAA31 /* state.png in Resources */,
 				963EC96020F09BE70089A3CE /* facade.png in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
@@ -1082,10 +1128,12 @@
 				963A0DD320FE3D55008B0D2A /* templateMethod.png in Resources */,
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
 				963EC96B20F0AB3F0089A3CE /* singleton.png in Resources */,
+				04E1138820FEE06000D4ED0A /* IOS_MementoMode_README.md in Resources */,
 				046B2C8920FD8F4A00DFE583 /* iterator2_2.png in Resources */,
 				964AD73E20F3A89300903B79 /* bridge2.png in Resources */,
 				046B2C8720FD8F4A00DFE583 /* iterator1_1.png in Resources */,
 				0448DA9D20FC392500B9B6BB /* mediator1.png in Resources */,
+				04E1138C20FEE17500D4ED0A /* memento.png in Resources */,
 				963AB2EA20FB0ADA00CBAA31 /* state1.png in Resources */,
 				045F543B20EDFA8800B0327A /* Main.storyboard in Resources */,
 				963EC98D20F110720089A3CE /* composite2.png in Resources */,
@@ -1158,7 +1206,9 @@
 				04E0E39420FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m in Sources */,
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
 				045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */,
+				04E1139920FEEB0B00D4ED0A /* DMRMementoClient.m in Sources */,
 				963EC98420F0E1AC0089A3CE /* DMRDecoratorTest.m in Sources */,
+				04E1139020FEEACC00D4ED0A /* DMRMementoOriginator.m in Sources */,
 				9657E1C620F5038E00888D48 /* DMRObserverConcreteSubject.m in Sources */,
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
 				963AB2F720FB1D6D00CBAA31 /* DMRStateConcreteStateTwo.m in Sources */,
@@ -1181,6 +1231,7 @@
 				046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */,
 				0448DAAB20FC428E00B9B6BB /* DMRMediatorClient.m in Sources */,
 				963A551E20FCEB1100A1767E /* DMRCommandClient.m in Sources */,
+				04E1139320FEEADC00D4ED0A /* DMRMementoMemento.m in Sources */,
 				963A551B20FCEB0200A1767E /* DMRCommandInvoker.m in Sources */,
 				963AB2F120FB1D4500CBAA31 /* DMRStateConcreteState.m in Sources */,
 				963A551520FCEA9400A1767E /* DMRCommandConcreteReciver.m in Sources */,
@@ -1190,6 +1241,7 @@
 				0448DAA220FC41CF00B9B6BB /* DMRMediatorConcreteMediator.m in Sources */,
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,
 				04E0E39720FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m in Sources */,
+				04E1139620FEEAFA00D4ED0A /* DMRMementoCaretaker.m in Sources */,
 				967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */,
 				963A551820FCEAED00A1767E /* DMRCommandConcreteReciverOne.m in Sources */,
 				9655187820F7A7EC005E877B /* DMRChainOfResponsibilityClient.m in Sources */,

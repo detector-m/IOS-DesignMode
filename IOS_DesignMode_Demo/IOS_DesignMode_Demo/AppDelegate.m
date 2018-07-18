@@ -44,6 +44,8 @@
 
 #import "DMRTemplateMethodClient.h"
 
+#import "DMRMementoClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -93,6 +95,9 @@
 
 // 模版方法模式
 - (void)testTemplateMethodMode;
+
+// 模版方法模式
+- (void)testMementoMode;
 @end
 
 @implementation AppDelegate
@@ -137,7 +142,9 @@
     
 //    [self testIteratorMode];
     
-    [self testTemplateMethodMode];
+//    [self testTemplateMethodMode];
+    
+    [self testMementoMode];
     
     return YES;
 }
@@ -288,5 +295,9 @@
 
 - (void)testTemplateMethodMode {
     [[DMRTemplateMethodClient new] test];
+}
+
+- (void)testMementoMode {
+    [[DMRMementoClient new] test];
 }
 @end

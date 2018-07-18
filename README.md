@@ -113,4 +113,6 @@ A类的对象在创建时不会立即创建B类的对象，而是等待一个外
 ### 参考
 [23种设计模式汇总整理](https://blog.csdn.net/jason0539/article/details/44956775)
 
-[设计模式](https://blog.csdn.net/hguisu/article/category/1133340)
+[设计模式(真实的归宿)](https://blog.csdn.net/hguisu/article/category/1133340)
+
+[设计模式(卡奴达摩的专栏)](https://blog.csdn.net/column/details/pattern.html)
