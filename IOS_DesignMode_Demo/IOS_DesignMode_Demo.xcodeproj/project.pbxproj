@@ -51,6 +51,15 @@
 		046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C8D20FD982900DFE583 /* DMRIteratorConcreteIterator.m */; };
 		046B2C9120FD989F00DFE583 /* DMRIteratorConcreteAggregate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */; };
 		046B2C9420FDC3C600DFE583 /* DMRIteratorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */; };
+		04A66DF120FF1A2500109393 /* IOS_InterpreterMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04A66DF020FF1A2500109393 /* IOS_InterpreterMode_README.md */; };
+		04A66DF520FF1AC000109393 /* interpreter.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A66DF320FF1AC000109393 /* interpreter.png */; };
+		04A66DF620FF1AC000109393 /* interpreter1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A66DF420FF1AC000109393 /* interpreter1.png */; };
+		04A66DFA20FF245100109393 /* DMRInterpreterContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66DF920FF245100109393 /* DMRInterpreterContext.m */; };
+		04A66DFD20FF247200109393 /* DMRInterpreterTerminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66DFC20FF247200109393 /* DMRInterpreterTerminalExpression.m */; };
+		04A66E0020FF248700109393 /* DMRInterpreterNonterminalExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66DFF20FF248700109393 /* DMRInterpreterNonterminalExpression.m */; };
+		04A66E0320FF249600109393 /* DMRInterpreterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66E0220FF249600109393 /* DMRInterpreterClient.m */; };
+		04A66E0620FF2E6600109393 /* DMRInterpreterOrExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66E0520FF2E6600109393 /* DMRInterpreterOrExpression.m */; };
+		04A66E0920FF2E7200109393 /* DMRInterpreterAndExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66E0820FF2E7200109393 /* DMRInterpreterAndExpression.m */; };
 		04E0E39420FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */; };
 		04E0E39720FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39620FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m */; };
 		04E0E39A20FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */; };
@@ -240,6 +249,22 @@
 		046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorConcreteAggregate.m; sourceTree = "<group>"; };
 		046B2C9220FDC3C600DFE583 /* DMRIteratorClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorClient.h; sourceTree = "<group>"; };
 		046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorClient.m; sourceTree = "<group>"; };
+		04A66DF020FF1A2500109393 /* IOS_InterpreterMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_InterpreterMode_README.md; sourceTree = "<group>"; };
+		04A66DF320FF1AC000109393 /* interpreter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interpreter.png; sourceTree = "<group>"; };
+		04A66DF420FF1AC000109393 /* interpreter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interpreter1.png; sourceTree = "<group>"; };
+		04A66DF720FF242C00109393 /* DMRInterpreterExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterExpression.h; sourceTree = "<group>"; };
+		04A66DF820FF245100109393 /* DMRInterpreterContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterContext.h; sourceTree = "<group>"; };
+		04A66DF920FF245100109393 /* DMRInterpreterContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterContext.m; sourceTree = "<group>"; };
+		04A66DFB20FF247200109393 /* DMRInterpreterTerminalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterTerminalExpression.h; sourceTree = "<group>"; };
+		04A66DFC20FF247200109393 /* DMRInterpreterTerminalExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterTerminalExpression.m; sourceTree = "<group>"; };
+		04A66DFE20FF248700109393 /* DMRInterpreterNonterminalExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterNonterminalExpression.h; sourceTree = "<group>"; };
+		04A66DFF20FF248700109393 /* DMRInterpreterNonterminalExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterNonterminalExpression.m; sourceTree = "<group>"; };
+		04A66E0120FF249600109393 /* DMRInterpreterClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterClient.h; sourceTree = "<group>"; };
+		04A66E0220FF249600109393 /* DMRInterpreterClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterClient.m; sourceTree = "<group>"; };
+		04A66E0420FF2E6600109393 /* DMRInterpreterOrExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterOrExpression.h; sourceTree = "<group>"; };
+		04A66E0520FF2E6600109393 /* DMRInterpreterOrExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterOrExpression.m; sourceTree = "<group>"; };
+		04A66E0720FF2E7200109393 /* DMRInterpreterAndExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterAndExpression.h; sourceTree = "<group>"; };
+		04A66E0820FF2E7200109393 /* DMRInterpreterAndExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterAndExpression.m; sourceTree = "<group>"; };
 		04E0E39220FECB680025ADF4 /* DMRTemplateMethodAbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodAbstractClass.h; sourceTree = "<group>"; };
 		04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodAbstractClass.m; sourceTree = "<group>"; };
 		04E0E39520FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodConcreteClass.h; sourceTree = "<group>"; };
@@ -474,6 +499,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				04A66DEF20FF19D000109393 /* IOS_InterpreterMode */,
 				04E1138620FEE00800D4ED0A /* IOS_MementoMode */,
 				963A0DCD20FE3BEA008B0D2A /* IOS_TemplateMethodMode */,
 				046B2C7E20FD89CA00DFE583 /* IOS_IteratorMode */,
@@ -656,6 +682,37 @@
 				046B2C8420FD8F4A00DFE583 /* iterator1_2.png */,
 				046B2C8220FD8F4A00DFE583 /* iterator2_1.png */,
 				046B2C8520FD8F4A00DFE583 /* iterator2_2.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04A66DEF20FF19D000109393 /* IOS_InterpreterMode */ = {
+			isa = PBXGroup;
+			children = (
+				04A66DF020FF1A2500109393 /* IOS_InterpreterMode_README.md */,
+				04A66DF720FF242C00109393 /* DMRInterpreterExpression.h */,
+				04A66DF820FF245100109393 /* DMRInterpreterContext.h */,
+				04A66DF920FF245100109393 /* DMRInterpreterContext.m */,
+				04A66DFB20FF247200109393 /* DMRInterpreterTerminalExpression.h */,
+				04A66DFC20FF247200109393 /* DMRInterpreterTerminalExpression.m */,
+				04A66DFE20FF248700109393 /* DMRInterpreterNonterminalExpression.h */,
+				04A66DFF20FF248700109393 /* DMRInterpreterNonterminalExpression.m */,
+				04A66E0420FF2E6600109393 /* DMRInterpreterOrExpression.h */,
+				04A66E0520FF2E6600109393 /* DMRInterpreterOrExpression.m */,
+				04A66E0720FF2E7200109393 /* DMRInterpreterAndExpression.h */,
+				04A66E0820FF2E7200109393 /* DMRInterpreterAndExpression.m */,
+				04A66E0120FF249600109393 /* DMRInterpreterClient.h */,
+				04A66E0220FF249600109393 /* DMRInterpreterClient.m */,
+				04A66DF220FF1A3D00109393 /* Resource */,
+			);
+			path = IOS_InterpreterMode;
+			sourceTree = "<group>";
+		};
+		04A66DF220FF1A3D00109393 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04A66DF320FF1AC000109393 /* interpreter.png */,
+				04A66DF420FF1AC000109393 /* interpreter1.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1108,6 +1165,7 @@
 				04E1138D20FEE17500D4ED0A /* memento1.png in Resources */,
 				963AB2E920FB0ADA00CBAA31 /* state.png in Resources */,
 				963EC96020F09BE70089A3CE /* facade.png in Resources */,
+				04A66DF120FF1A2500109393 /* IOS_InterpreterMode_README.md in Resources */,
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
 				963AB30220FB2E3800CBAA31 /* visitor.png in Resources */,
 				963AB2FD20FB2DA600CBAA31 /* IOS_VisitorMode_README.md in Resources */,
@@ -1143,9 +1201,11 @@
 				045F546720EDFBCE00B0327A /* IOS_BuilderMode_Readme.md in Resources */,
 				9655186B20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md in Resources */,
 				045F548520EF100F00B0327A /* IOS_AdapterMode_README.md in Resources */,
+				04A66DF520FF1AC000109393 /* interpreter.png in Resources */,
 				9655186F20F79BED005E877B /* chain3.png in Resources */,
 				963A550A20FCDF7500A1767E /* command1.png in Resources */,
 				967139BB20F63D07006FBFC8 /* strategy.png in Resources */,
+				04A66DF620FF1AC000109393 /* interpreter1.png in Resources */,
 				963A550920FCDF7500A1767E /* command.png in Resources */,
 				9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */,
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
@@ -1186,6 +1246,7 @@
 				967139C820F64810006FBFC8 /* DMRStrategyContext.m in Sources */,
 				045F549B20EF1FAB00B0327A /* DMRAdaptee.m in Sources */,
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
+				04A66DFA20FF245100109393 /* DMRInterpreterContext.m in Sources */,
 				963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */,
 				964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */,
 				04E0E39D20FED1450025ADF4 /* DMRTemplateMethodClient.m in Sources */,
@@ -1197,6 +1258,7 @@
 				9655187520F7A63C005E877B /* DMRChainOfResponsibilityConcreteHandler.m in Sources */,
 				9627494E20FB94140066F326 /* DMRVisitorObjectStruct.m in Sources */,
 				045F547B20EE147A00B0327A /* DMRPrototype.m in Sources */,
+				04A66DFD20FF247200109393 /* DMRInterpreterTerminalExpression.m in Sources */,
 				967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
 				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
@@ -1204,6 +1266,7 @@
 				963EC96320F0A8410089A3CE /* DMRSystemOne.m in Sources */,
 				964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */,
 				04E0E39420FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m in Sources */,
+				04A66E0020FF248700109393 /* DMRInterpreterNonterminalExpression.m in Sources */,
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
 				045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */,
 				04E1139920FEEB0B00D4ED0A /* DMRMementoClient.m in Sources */,
@@ -1220,6 +1283,7 @@
 				960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */,
 				046B2C9420FDC3C600DFE583 /* DMRIteratorClient.m in Sources */,
 				967139CB20F64938006FBFC8 /* DMRStrategyClient.m in Sources */,
+				04A66E0620FF2E6600109393 /* DMRInterpreterOrExpression.m in Sources */,
 				963EC96620F0A8560089A3CE /* DMRSystemTwo.m in Sources */,
 				045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */,
 				0448DAA520FC41E400B9B6BB /* DMRMediatorConcreteColleague.m in Sources */,
@@ -1230,6 +1294,7 @@
 				963DEEBA20F1BE3B008FD02C /* DMRCompositeTest.m in Sources */,
 				046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */,
 				0448DAAB20FC428E00B9B6BB /* DMRMediatorClient.m in Sources */,
+				04A66E0320FF249600109393 /* DMRInterpreterClient.m in Sources */,
 				963A551E20FCEB1100A1767E /* DMRCommandClient.m in Sources */,
 				04E1139320FEEADC00D4ED0A /* DMRMementoMemento.m in Sources */,
 				963A551B20FCEB0200A1767E /* DMRCommandInvoker.m in Sources */,
@@ -1237,6 +1302,7 @@
 				963A551520FCEA9400A1767E /* DMRCommandConcreteReciver.m in Sources */,
 				963DEEB720F1BC00008FD02C /* DMRCompositeComposite.m in Sources */,
 				045F543520EDFA8800B0327A /* AppDelegate.m in Sources */,
+				04A66E0920FF2E7200109393 /* DMRInterpreterAndExpression.m in Sources */,
 				963EC97820F0D95A0089A3CE /* DMRContreteComponent.m in Sources */,
 				0448DAA220FC41CF00B9B6BB /* DMRMediatorConcreteMediator.m in Sources */,
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,

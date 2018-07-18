@@ -46,6 +46,8 @@
 
 #import "DMRMementoClient.h"
 
+#import "DMRInterpreterClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -98,6 +100,9 @@
 
 // 模版方法模式
 - (void)testMementoMode;
+
+// 解释器模式
+- (void)testInterpreterMode;
 @end
 
 @implementation AppDelegate
@@ -144,7 +149,9 @@
     
 //    [self testTemplateMethodMode];
     
-    [self testMementoMode];
+//    [self testMementoMode];
+    
+    [self testInterpreterMode];
     
     return YES;
 }
@@ -299,5 +306,9 @@
 
 - (void)testMementoMode {
     [[DMRMementoClient new] test];
+}
+
+- (void)testInterpreterMode {
+    [[DMRInterpreterClient new] test];
 }
 @end
