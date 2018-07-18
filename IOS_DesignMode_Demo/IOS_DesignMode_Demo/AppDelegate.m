@@ -42,6 +42,8 @@
 
 #import "DMRIteratorClient.h"
 
+#import "DMRTemplateMethodClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -88,6 +90,9 @@
 
 // 迭代子模式
 - (void)testIteratorMode;
+
+// 模版方法模式
+- (void)testTemplateMethodMode;
 @end
 
 @implementation AppDelegate
@@ -130,7 +135,9 @@
     
 //    [self testCommandMode];
     
-    [self testIteratorMode];
+//    [self testIteratorMode];
+    
+    [self testTemplateMethodMode];
     
     return YES;
 }
@@ -277,5 +284,9 @@
 
 - (void)testIteratorMode {
     [[DMRIteratorClient new] test];
+}
+
+- (void)testTemplateMethodMode {
+    [[DMRTemplateMethodClient new] test];
 }
 @end

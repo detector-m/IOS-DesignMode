@@ -51,6 +51,10 @@
 		046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C8D20FD982900DFE583 /* DMRIteratorConcreteIterator.m */; };
 		046B2C9120FD989F00DFE583 /* DMRIteratorConcreteAggregate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */; };
 		046B2C9420FDC3C600DFE583 /* DMRIteratorClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */; };
+		04E0E39420FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */; };
+		04E0E39720FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39620FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m */; };
+		04E0E39A20FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */; };
+		04E0E39D20FED1450025ADF4 /* DMRTemplateMethodClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39C20FED1450025ADF4 /* DMRTemplateMethodClient.m */; };
 		960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F722F20EE589300CFFA07 /* DMRSingleton.m */; };
 		960F723320EE58F600CFFA07 /* DMRSingletonSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 960F723220EE58F600CFFA07 /* DMRSingletonSecond.m */; };
 		9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9627494420FB907A0066F326 /* DMRVisitorConcreteVisitor.m */; };
@@ -229,6 +233,14 @@
 		046B2C9020FD989F00DFE583 /* DMRIteratorConcreteAggregate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorConcreteAggregate.m; sourceTree = "<group>"; };
 		046B2C9220FDC3C600DFE583 /* DMRIteratorClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRIteratorClient.h; sourceTree = "<group>"; };
 		046B2C9320FDC3C600DFE583 /* DMRIteratorClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRIteratorClient.m; sourceTree = "<group>"; };
+		04E0E39220FECB680025ADF4 /* DMRTemplateMethodAbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodAbstractClass.h; sourceTree = "<group>"; };
+		04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodAbstractClass.m; sourceTree = "<group>"; };
+		04E0E39520FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodConcreteClass.h; sourceTree = "<group>"; };
+		04E0E39620FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodConcreteClass.m; sourceTree = "<group>"; };
+		04E0E39820FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodConcreteClassOne.h; sourceTree = "<group>"; };
+		04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodConcreteClassOne.m; sourceTree = "<group>"; };
+		04E0E39B20FED1450025ADF4 /* DMRTemplateMethodClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodClient.h; sourceTree = "<group>"; };
+		04E0E39C20FED1450025ADF4 /* DMRTemplateMethodClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodClient.m; sourceTree = "<group>"; };
 		960F722E20EE589300CFFA07 /* DMRSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingleton.h; sourceTree = "<group>"; };
 		960F722F20EE589300CFFA07 /* DMRSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRSingleton.m; sourceTree = "<group>"; };
 		960F723120EE58F600CFFA07 /* DMRSingletonSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRSingletonSecond.h; sourceTree = "<group>"; };
@@ -633,6 +645,14 @@
 			isa = PBXGroup;
 			children = (
 				963A0DCE20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md */,
+				04E0E39220FECB680025ADF4 /* DMRTemplateMethodAbstractClass.h */,
+				04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */,
+				04E0E39520FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.h */,
+				04E0E39620FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m */,
+				04E0E39820FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.h */,
+				04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */,
+				04E0E39B20FED1450025ADF4 /* DMRTemplateMethodClient.h */,
+				04E0E39C20FED1450025ADF4 /* DMRTemplateMethodClient.m */,
 				963A0DD020FE3C37008B0D2A /* Resource */,
 			);
 			path = IOS_TemplateMethodMode;
@@ -1120,6 +1140,7 @@
 				045F549120EF1BC300B0327A /* DMRClassAdapter.m in Sources */,
 				963EC97E20F0DDF90089A3CE /* DMRDecoratorFirst.m in Sources */,
 				964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */,
+				04E0E39D20FED1450025ADF4 /* DMRTemplateMethodClient.m in Sources */,
 				046B2C9120FD989F00DFE583 /* DMRIteratorConcreteAggregate.m in Sources */,
 				9657E1C320F5037E00888D48 /* DMRObserverConcreteObserver.m in Sources */,
 				964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */,
@@ -1134,6 +1155,7 @@
 				0448DAA820FC41F500B9B6BB /* DMRMediatorConcreteColleagueOne.m in Sources */,
 				963EC96320F0A8410089A3CE /* DMRSystemOne.m in Sources */,
 				964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */,
+				04E0E39420FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m in Sources */,
 				045F547420EE06A500B0327A /* DMRDirectorBuilder.m in Sources */,
 				045F549420EF1BD200B0327A /* DMRObjectAdapter.m in Sources */,
 				963EC98420F0E1AC0089A3CE /* DMRDecoratorTest.m in Sources */,
@@ -1154,6 +1176,7 @@
 				963EC96E20F0AD770089A3CE /* DMRFacade.m in Sources */,
 				963DEEB420F1BAAA008FD02C /* DMRCompositeLeaf.m in Sources */,
 				960F723020EE589300CFFA07 /* DMRSingleton.m in Sources */,
+				04E0E39A20FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m in Sources */,
 				963DEEBA20F1BE3B008FD02C /* DMRCompositeTest.m in Sources */,
 				046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */,
 				0448DAAB20FC428E00B9B6BB /* DMRMediatorClient.m in Sources */,
@@ -1166,6 +1189,7 @@
 				963EC97820F0D95A0089A3CE /* DMRContreteComponent.m in Sources */,
 				0448DAA220FC41CF00B9B6BB /* DMRMediatorConcreteMediator.m in Sources */,
 				963EC98120F0DE060089A3CE /* DMRDecoratorSecond.m in Sources */,
+				04E0E39720FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m in Sources */,
 				967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */,
 				963A551820FCEAED00A1767E /* DMRCommandConcreteReciverOne.m in Sources */,
 				9655187820F7A7EC005E877B /* DMRChainOfResponsibilityClient.m in Sources */,
