@@ -134,6 +134,10 @@
 		964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */; };
 		964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */; };
 		964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */; };
+		9654B5232100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B5222100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m */; };
+		9654B5262100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B5252100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m */; };
+		9654B5292100D3E400FE8075 /* DMRFlyweightClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B5282100D3E400FE8075 /* DMRFlyweightClient.m */; };
+		9654B52C2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B52B2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.m */; };
 		9655186B20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9655186A20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md */; };
 		9655186F20F79BED005E877B /* chain3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9655186C20F79BEC005E877B /* chain3.png */; };
 		9655187020F79BED005E877B /* chain1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9655186D20F79BED005E877B /* chain1.png */; };
@@ -393,6 +397,15 @@
 		964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeConcreteImplementorB.m; sourceTree = "<group>"; };
 		964AD74C20F3C0E900903B79 /* DMRBridgeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeClient.h; sourceTree = "<group>"; };
 		964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeClient.m; sourceTree = "<group>"; };
+		9654B5202100CD8600FE8075 /* DMRFlyweightFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightFlyweight.h; sourceTree = "<group>"; };
+		9654B5212100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightConcreteFlyweight.h; sourceTree = "<group>"; };
+		9654B5222100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRFlyweightConcreteFlyweight.m; sourceTree = "<group>"; };
+		9654B5242100CE0000FE8075 /* DMRFlyweightFlyweightFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightFlyweightFactory.h; sourceTree = "<group>"; };
+		9654B5252100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRFlyweightFlyweightFactory.m; sourceTree = "<group>"; };
+		9654B5272100D3E400FE8075 /* DMRFlyweightClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightClient.h; sourceTree = "<group>"; };
+		9654B5282100D3E400FE8075 /* DMRFlyweightClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRFlyweightClient.m; sourceTree = "<group>"; };
+		9654B52A2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightConcreteCompositeFlyweight.h; sourceTree = "<group>"; };
+		9654B52B2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRFlyweightConcreteCompositeFlyweight.m; sourceTree = "<group>"; };
 		9655186A20F79659005E877B /* IOS_ChainOfResponsibilityMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_ChainOfResponsibilityMode_README.md; sourceTree = "<group>"; };
 		9655186C20F79BEC005E877B /* chain3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain3.png; sourceTree = "<group>"; };
 		9655186D20F79BED005E877B /* chain1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain1.png; sourceTree = "<group>"; };
@@ -728,6 +741,15 @@
 			isa = PBXGroup;
 			children = (
 				04B435D22100895C00717C9C /* IOS_FlyweightMode_README.md */,
+				9654B5202100CD8600FE8075 /* DMRFlyweightFlyweight.h */,
+				9654B5212100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.h */,
+				9654B5222100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m */,
+				9654B5242100CE0000FE8075 /* DMRFlyweightFlyweightFactory.h */,
+				9654B5252100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m */,
+				9654B52A2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.h */,
+				9654B52B2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.m */,
+				9654B5272100D3E400FE8075 /* DMRFlyweightClient.h */,
+				9654B5282100D3E400FE8075 /* DMRFlyweightClient.m */,
 				04B435D42100898000717C9C /* Resource */,
 			);
 			path = IOS_FlyweightMode;
@@ -1264,6 +1286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9654B5292100D3E400FE8075 /* DMRFlyweightClient.m in Sources */,
 				963A550F20FCE9EF00A1767E /* DMRCommandConcreteCommand.m in Sources */,
 				9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */,
 				045F543820EDFA8800B0327A /* ViewController.m in Sources */,
@@ -1290,6 +1313,7 @@
 				967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
 				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
+				9654B5232100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m in Sources */,
 				0448DAA820FC41F500B9B6BB /* DMRMediatorConcreteColleagueOne.m in Sources */,
 				963EC96320F0A8410089A3CE /* DMRSystemOne.m in Sources */,
 				964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */,
@@ -1338,12 +1362,14 @@
 				04E1139620FEEAFA00D4ED0A /* DMRMementoCaretaker.m in Sources */,
 				967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */,
 				963A551820FCEAED00A1767E /* DMRCommandConcreteReciverOne.m in Sources */,
+				9654B52C2100D79300FE8075 /* DMRFlyweightConcreteCompositeFlyweight.m in Sources */,
 				9655187820F7A7EC005E877B /* DMRChainOfResponsibilityClient.m in Sources */,
 				963EC97B20F0DACC0089A3CE /* DMRDecorator.m in Sources */,
 				045F547120EE035C00B0327A /* DMRDirector.m in Sources */,
 				9657E1C920F5086500888D48 /* DMRObserverClient.m in Sources */,
 				963EC96920F0A8640089A3CE /* DMRSystemThree.m in Sources */,
 				963AB2F420FB1D5A00CBAA31 /* DMRStateConcreteStateOne.m in Sources */,
+				9654B5262100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m in Sources */,
 				963DEEB120F1B3B1008FD02C /* DMRCompositeComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -48,6 +48,8 @@
 
 #import "DMRInterpreterClient.h"
 
+#import "DMRFlyweightClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -103,6 +105,9 @@
 
 // 解释器模式
 - (void)testInterpreterMode;
+
+// 享元模式
+- (void)testFlyweightMode;
 @end
 
 @implementation AppDelegate
@@ -151,7 +156,9 @@
     
 //    [self testMementoMode];
     
-    [self testInterpreterMode];
+//    [self testInterpreterMode];
+    
+    [self testFlyweightMode];
     
     return YES;
 }
@@ -310,5 +317,9 @@
 
 - (void)testInterpreterMode {
     [[DMRInterpreterClient new] test];
+}
+
+- (void)testFlyweightMode {
+    [[DMRFlyweightClient new] test];
 }
 @end
