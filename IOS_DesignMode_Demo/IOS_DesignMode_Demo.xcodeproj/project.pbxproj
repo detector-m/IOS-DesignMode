@@ -60,6 +60,9 @@
 		04A66E0320FF249600109393 /* DMRInterpreterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66E0220FF249600109393 /* DMRInterpreterClient.m */; };
 		04A66E0620FF2E6600109393 /* DMRInterpreterOrExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66E0520FF2E6600109393 /* DMRInterpreterOrExpression.m */; };
 		04A66E0920FF2E7200109393 /* DMRInterpreterAndExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A66E0820FF2E7200109393 /* DMRInterpreterAndExpression.m */; };
+		04B435D32100895C00717C9C /* IOS_FlyweightMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04B435D22100895C00717C9C /* IOS_FlyweightMode_README.md */; };
+		04B435D721008D7900717C9C /* flyweight1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B435D521008D7900717C9C /* flyweight1.png */; };
+		04B435D821008D7900717C9C /* flyweight2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B435D621008D7900717C9C /* flyweight2.png */; };
 		04E0E39420FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */; };
 		04E0E39720FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39620FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.m */; };
 		04E0E39A20FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0E39920FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m */; };
@@ -265,6 +268,9 @@
 		04A66E0520FF2E6600109393 /* DMRInterpreterOrExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterOrExpression.m; sourceTree = "<group>"; };
 		04A66E0720FF2E7200109393 /* DMRInterpreterAndExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRInterpreterAndExpression.h; sourceTree = "<group>"; };
 		04A66E0820FF2E7200109393 /* DMRInterpreterAndExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRInterpreterAndExpression.m; sourceTree = "<group>"; };
+		04B435D22100895C00717C9C /* IOS_FlyweightMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_FlyweightMode_README.md; sourceTree = "<group>"; };
+		04B435D521008D7900717C9C /* flyweight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flyweight1.png; sourceTree = "<group>"; };
+		04B435D621008D7900717C9C /* flyweight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flyweight2.png; sourceTree = "<group>"; };
 		04E0E39220FECB680025ADF4 /* DMRTemplateMethodAbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodAbstractClass.h; sourceTree = "<group>"; };
 		04E0E39320FECB680025ADF4 /* DMRTemplateMethodAbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRTemplateMethodAbstractClass.m; sourceTree = "<group>"; };
 		04E0E39520FED06E0025ADF4 /* DMRTemplateMethodConcreteClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRTemplateMethodConcreteClass.h; sourceTree = "<group>"; };
@@ -499,6 +505,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				04B435D1210088B500717C9C /* IOS_FlyweightMode */,
 				04A66DEF20FF19D000109393 /* IOS_InterpreterMode */,
 				04E1138620FEE00800D4ED0A /* IOS_MementoMode */,
 				963A0DCD20FE3BEA008B0D2A /* IOS_TemplateMethodMode */,
@@ -713,6 +720,24 @@
 			children = (
 				04A66DF320FF1AC000109393 /* interpreter.png */,
 				04A66DF420FF1AC000109393 /* interpreter1.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04B435D1210088B500717C9C /* IOS_FlyweightMode */ = {
+			isa = PBXGroup;
+			children = (
+				04B435D22100895C00717C9C /* IOS_FlyweightMode_README.md */,
+				04B435D42100898000717C9C /* Resource */,
+			);
+			path = IOS_FlyweightMode;
+			sourceTree = "<group>";
+		};
+		04B435D42100898000717C9C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04B435D521008D7900717C9C /* flyweight1.png */,
+				04B435D621008D7900717C9C /* flyweight2.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -1157,6 +1182,7 @@
 				963EC98E20F110720089A3CE /* composite1.png in Resources */,
 				046B2C8820FD8F4A00DFE583 /* iterator1_2.png in Resources */,
 				963A0DCF20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md in Resources */,
+				04B435D821008D7900717C9C /* flyweight2.png in Resources */,
 				046B2C8620FD8F4A00DFE583 /* iterator2_1.png in Resources */,
 				9657E1BE20F4FABA00888D48 /* observer3.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
@@ -1204,10 +1230,12 @@
 				04A66DF520FF1AC000109393 /* interpreter.png in Resources */,
 				9655186F20F79BED005E877B /* chain3.png in Resources */,
 				963A550A20FCDF7500A1767E /* command1.png in Resources */,
+				04B435D32100895C00717C9C /* IOS_FlyweightMode_README.md in Resources */,
 				967139BB20F63D07006FBFC8 /* strategy.png in Resources */,
 				04A66DF620FF1AC000109393 /* interpreter1.png in Resources */,
 				963A550920FCDF7500A1767E /* command.png in Resources */,
 				9657E1B820F4F98A00888D48 /* IOS_ObserverMode_README.md in Resources */,
+				04B435D721008D7900717C9C /* flyweight1.png in Resources */,
 				045F549F20EF4A3A00B0327A /* IOS_ProxyMode_READMD.md in Resources */,
 				045F54A120EF4C8000B0327A /* proxy.png in Resources */,
 				963A550520FCDEA800A1767E /* IOS_CommandMode_README.md in Resources */,
