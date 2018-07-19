@@ -94,6 +94,8 @@ A类的对象在创建时不会立即创建B类的对象，而是等待一个外
 
 [桥接模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_BridgeMode/IOS_BridgeMode_README.md)
 
+[享元模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_FlyweightMode/IOS_FlyweightMode_README.md)
+
 ### 行为型模式
 
 [观察者模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_ObserverMode/IOS_ObserverMode_README.md)
