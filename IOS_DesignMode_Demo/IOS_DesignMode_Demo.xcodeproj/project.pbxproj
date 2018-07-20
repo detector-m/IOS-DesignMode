@@ -149,6 +149,12 @@
 		964AD74820F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74720F3BCE600903B79 /* DMRBridgeConcreteImplementorA.m */; };
 		964AD74B20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */; };
 		964AD74E20F3C0E900903B79 /* DMRBridgeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */; };
+		9652167D21023A0C00E96317 /* IOS_AbstractFactoryMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9652167C21023A0C00E96317 /* IOS_AbstractFactoryMode_README.md */; };
+		9652168121023BDF00E96317 /* abstractFactory1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9652167F21023BDF00E96317 /* abstractFactory1.png */; };
+		9652168221023BDF00E96317 /* abstractFactory.png in Resources */ = {isa = PBXBuildFile; fileRef = 9652168021023BDF00E96317 /* abstractFactory.png */; };
+		96521684210240B400E96317 /* abstractFactory2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96521683210240B400E96317 /* abstractFactory2.png */; };
+		965216862102431300E96317 /* abstractFactory0.png in Resources */ = {isa = PBXBuildFile; fileRef = 965216852102431300E96317 /* abstractFactory0.png */; };
+		965216882102474300E96317 /* FactoryMode_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 965216872102474300E96317 /* FactoryMode_README.md */; };
 		9654B5232100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B5222100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m */; };
 		9654B5262100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B5252100CE0000FE8075 /* DMRFlyweightFlyweightFactory.m */; };
 		9654B5292100D3E400FE8075 /* DMRFlyweightClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9654B5282100D3E400FE8075 /* DMRFlyweightClient.m */; };
@@ -439,6 +445,12 @@
 		964AD74A20F3C04A00903B79 /* DMRBridgeConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeConcreteImplementorB.m; sourceTree = "<group>"; };
 		964AD74C20F3C0E900903B79 /* DMRBridgeClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRBridgeClient.h; sourceTree = "<group>"; };
 		964AD74D20F3C0E900903B79 /* DMRBridgeClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRBridgeClient.m; sourceTree = "<group>"; };
+		9652167C21023A0C00E96317 /* IOS_AbstractFactoryMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IOS_AbstractFactoryMode_README.md; sourceTree = "<group>"; };
+		9652167F21023BDF00E96317 /* abstractFactory1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractFactory1.png; sourceTree = "<group>"; };
+		9652168021023BDF00E96317 /* abstractFactory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractFactory.png; sourceTree = "<group>"; };
+		96521683210240B400E96317 /* abstractFactory2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractFactory2.png; sourceTree = "<group>"; };
+		965216852102431300E96317 /* abstractFactory0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstractFactory0.png; sourceTree = "<group>"; };
+		965216872102474300E96317 /* FactoryMode_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FactoryMode_README.md; sourceTree = "<group>"; };
 		9654B5202100CD8600FE8075 /* DMRFlyweightFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightFlyweight.h; sourceTree = "<group>"; };
 		9654B5212100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRFlyweightConcreteFlyweight.h; sourceTree = "<group>"; };
 		9654B5222100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRFlyweightConcreteFlyweight.m; sourceTree = "<group>"; };
@@ -560,6 +572,7 @@
 		045F543220EDFA8800B0327A /* IOS_DesignMode_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9652167B210239DD00E96317 /* IOS_AbstractFactoryMode */,
 				04CA5DA12101B0B10053BF08 /* IOS_FactoryMethodMode */,
 				04A30E9221018A6B0001259F /* IOS_SimpleFactoryMode */,
 				04B435D1210088B500717C9C /* IOS_FlyweightMode */,
@@ -1117,6 +1130,27 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		9652167B210239DD00E96317 /* IOS_AbstractFactoryMode */ = {
+			isa = PBXGroup;
+			children = (
+				965216872102474300E96317 /* FactoryMode_README.md */,
+				9652167C21023A0C00E96317 /* IOS_AbstractFactoryMode_README.md */,
+				9652167E21023AFF00E96317 /* Resource */,
+			);
+			path = IOS_AbstractFactoryMode;
+			sourceTree = "<group>";
+		};
+		9652167E21023AFF00E96317 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9652168021023BDF00E96317 /* abstractFactory.png */,
+				965216852102431300E96317 /* abstractFactory0.png */,
+				9652167F21023BDF00E96317 /* abstractFactory1.png */,
+				96521683210240B400E96317 /* abstractFactory2.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		9655186820F79601005E877B /* IOS_ChainOfResponsibilityMode */ = {
 			isa = PBXGroup;
 			children = (
@@ -1306,8 +1340,10 @@
 				046B2C8820FD8F4A00DFE583 /* iterator1_2.png in Resources */,
 				963A0DCF20FE3C30008B0D2A /* IOS_TemplateMethodMode_README.md in Resources */,
 				04B435D821008D7900717C9C /* flyweight2.png in Resources */,
+				9652167D21023A0C00E96317 /* IOS_AbstractFactoryMode_README.md in Resources */,
 				04A30E9B210194960001259F /* simpleFactory.png in Resources */,
 				046B2C8620FD8F4A00DFE583 /* iterator2_1.png in Resources */,
+				9652168221023BDF00E96317 /* abstractFactory.png in Resources */,
 				9657E1BE20F4FABA00888D48 /* observer3.png in Resources */,
 				045F544020EDFA9C00B0327A /* LaunchScreen.storyboard in Resources */,
 				045F548A20EF12DC00B0327A /* object.png in Resources */,
@@ -1320,11 +1356,14 @@
 				045F543D20EDFA9C00B0327A /* Assets.xcassets in Resources */,
 				04CA5DA72101B4C40053BF08 /* factoryMethod2.png in Resources */,
 				04CA5DA32101B0D30053BF08 /* IOS_FactoryMethodMode_README.md in Resources */,
+				965216862102431300E96317 /* abstractFactory0.png in Resources */,
+				96521684210240B400E96317 /* abstractFactory2.png in Resources */,
 				04A30E9621018BD60001259F /* IOS_SimpleFactoryMode_README.md in Resources */,
 				963AB30220FB2E3800CBAA31 /* visitor.png in Resources */,
 				963AB2FD20FB2DA600CBAA31 /* IOS_VisitorMode_README.md in Resources */,
 				963EC97420F0D2E70089A3CE /* decorator.png in Resources */,
 				04CA5DA82101B4C40053BF08 /* factoryMethod1.png in Resources */,
+				965216882102474300E96317 /* FactoryMode_README.md in Resources */,
 				0448DA9820FC378500B9B6BB /* IOA_MediatorMode_README.md in Resources */,
 				964AD73C20F39ABB00903B79 /* bridge.png in Resources */,
 				045F548920EF12DC00B0327A /* class.png in Resources */,
@@ -1342,6 +1381,7 @@
 				963EC97220F0CDEC0089A3CE /* IOS_DecoratorMode_README.md in Resources */,
 				963EC96B20F0AB3F0089A3CE /* singleton.png in Resources */,
 				04E1138820FEE06000D4ED0A /* IOS_MementoMode_README.md in Resources */,
+				9652168121023BDF00E96317 /* abstractFactory1.png in Resources */,
 				046B2C8920FD8F4A00DFE583 /* iterator2_2.png in Resources */,
 				964AD73E20F3A89300903B79 /* bridge2.png in Resources */,
 				046B2C8720FD8F4A00DFE583 /* iterator1_1.png in Resources */,
