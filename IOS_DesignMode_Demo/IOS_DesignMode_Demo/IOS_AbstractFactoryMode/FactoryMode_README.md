@@ -27,7 +27,7 @@
 
 2. [工厂方法模式(Factory Method)](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_FactoryMethodMode/IOS_FactoryMethodMode_README.md)
 
-3. [抽象工厂模式(Abstract Factory)]()
+3. [抽象工厂模式(Abstract Factory)](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_AbstractFactoryMode/IOS_AbstractFactoryMode_README.md)
 
 这三种模式从上到下逐步抽象，并且更具一般性。GOF在《设计模式》一书中将工厂模式分为两类：工厂方法模式（Factory Method）与抽象工厂模式（Abstract Factory）。
 
@@ -80,7 +80,7 @@
 
 简单工厂模式与工厂方法模式真正的避免了代码的改动了？没有。在简单工厂模式中，新产品的加入要修改工厂角色中的判断语句；而在工厂方法模式中，要么将判 断逻辑留在抽象工厂角色中，要么在客户程序中将具体工厂角色写死。而且产品对象创建条件的改变必然会引起工厂角色的修改。面对这种情况，我们可以使用反射机制。
 
-#### [抽象工厂模式]()
+#### [抽象工厂模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_AbstractFactoryMode/IOS_AbstractFactoryMode_README.md)
 
 抽象工厂模式和工厂方法模式的区别就在于需要创建对象的复杂程度上。而且抽象工厂模式是三个里面最为抽象、最具一般性的。 抽象工厂模式可以向客户端提供一个接口，使客户端在不必指定产品的具体的情况下，创建多个产品族中的产品对象。根据里氏替换原则，任何接受父类型的地方，都应当能够接受子类型。因此，实际上系统所需要的，仅仅是类型与这些抽象产品角色相同的一些实例，而不是这些抽象产品的实例。换言之，也就是这些抽象产品的具体子类的实例。工厂类负责创建抽象产品的具体子类的实例。
 

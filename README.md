@@ -74,9 +74,13 @@ A类的对象在创建时不会立即创建B类的对象，而是等待一个外
 
 ### 创建型模式
 
+[工厂模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_AbstractFactoryMode/FactoryMode_README.md)
+
 [简单工厂模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_SimpleFactoryMode/IOS_SimpleFactoryMode_README.md)
 
 [工厂方法模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_FactoryMethodMode/IOS_FactoryMethodMode_README.md)
+
+[抽象工厂模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_AbstractFactoryMode/IOS_AbstractFactoryMode_README.md)
 
 [建造者模式](https://github.com/detector-m/IOS-DesignMode/blob/master/IOS_DesignMode_Demo/IOS_DesignMode_Demo/IOS_BuilderMode/IOS_BuilderMode_Readme.md)
 
