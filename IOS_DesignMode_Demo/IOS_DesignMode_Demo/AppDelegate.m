@@ -52,6 +52,8 @@
 
 #import "DMRSimpleFactoryClient.h"
 
+#import "DMRFactoryMethodClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -113,6 +115,9 @@
 
 // 简单工厂模式
 - (void)testSimpleFactoryMode;
+
+// 工厂方法模式
+- (void)testFactoryMethodMode;
 @end
 
 @implementation AppDelegate
@@ -165,7 +170,9 @@
     
 //    [self testFlyweightMode];
     
-    [self testSimpleFactoryMode];
+//    [self testSimpleFactoryMode];
+    
+    [self testFactoryMethodMode];
     
     return YES;
 }
@@ -332,5 +339,9 @@
 
 - (void)testSimpleFactoryMode {
     [[DMRSimpleFactoryClient new] test];
+}
+
+- (void)testFactoryMethodMode {
+    [[DMRFactoryMethodClient new] test];
 }
 @end
