@@ -50,6 +50,8 @@
 
 #import "DMRFlyweightClient.h"
 
+#import "DMRSimpleFactoryClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -108,6 +110,9 @@
 
 // 享元模式
 - (void)testFlyweightMode;
+
+// 简单工厂模式
+- (void)testSimpleFactoryMode;
 @end
 
 @implementation AppDelegate
@@ -158,7 +163,9 @@
     
 //    [self testInterpreterMode];
     
-    [self testFlyweightMode];
+//    [self testFlyweightMode];
+    
+    [self testSimpleFactoryMode];
     
     return YES;
 }
@@ -321,5 +328,9 @@
 
 - (void)testFlyweightMode {
     [[DMRFlyweightClient new] test];
+}
+
+- (void)testSimpleFactoryMode {
+    [[DMRSimpleFactoryClient new] test];
 }
 @end
