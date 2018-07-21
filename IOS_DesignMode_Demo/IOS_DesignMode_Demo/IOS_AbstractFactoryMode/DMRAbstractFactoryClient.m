@@ -26,6 +26,28 @@ NS_ASSUME_NONNULL_BEGIN
     NSLog(@"test end...");
 }
 
+- (void)testWithRuntime:(NSString * _Nonnull)factoryClassName {
+    if (!factoryClassName) return;
+    
+    Class factoryClass = NSClassFromString(factoryClassName);
+    
+    if (!factoryClass) {
+        NSLog(@"factoryClassName is error");
+        return;
+    }
+    
+    NSLog(@"test start...");
+    
+    id<DMRAbstractFactoryFactory> factory = [factoryClass new];
+    id<DMRAbstractFactoryProduct1> product1 = [factory createProduct1];
+    id<DMRAbstractFactoryProduct2> product2 = [factory createProduct2];
+    
+    [product1 operation];
+    [product2 operation];
+    
+    NSLog(@"test end...");
+}
+
 #pragma mark - Private
 
 - (void)testForFactory1 {

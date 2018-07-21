@@ -353,6 +353,10 @@
 }
 
 - (void)testAbstractFactoryMode {
-    [[DMRAbstractFactoryClient new] test];
+//    [[DMRAbstractFactoryClient new] test];
+    
+//    [[DMRAbstractFactoryClient new] testWithRuntime:@"DMRAbstractFactoryConcreteFactory2"];
+    
+    [[DMRAbstractFactoryClient new] testWithRuntime:@"DMRAbstractFactoryConcreteFactory1"];
 }
 @end
