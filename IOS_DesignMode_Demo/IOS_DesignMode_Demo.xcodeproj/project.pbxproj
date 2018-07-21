@@ -179,6 +179,13 @@
 		967139C520F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139C420F6470D006FBFC8 /* DMRStrategyConcreteStrategyTwo.m */; };
 		967139C820F64810006FBFC8 /* DMRStrategyContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139C720F64810006FBFC8 /* DMRStrategyContext.m */; };
 		967139CB20F64938006FBFC8 /* DMRStrategyClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 967139CA20F64938006FBFC8 /* DMRStrategyClient.m */; };
+		9671B8B2210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8B1210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.m */; };
+		9671B8B5210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8B4210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.m */; };
+		9671B8B8210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8B7210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.m */; };
+		9671B8BB210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8BA210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.m */; };
+		9671B8BE210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8BD210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.m */; };
+		9671B8C1210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8C0210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.m */; };
+		9671B8C4210308D50020D4B6 /* DMRAbstractFactoryClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671B8C3210308D50020D4B6 /* DMRAbstractFactoryClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -494,6 +501,23 @@
 		967139C720F64810006FBFC8 /* DMRStrategyContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyContext.m; sourceTree = "<group>"; };
 		967139C920F64938006FBFC8 /* DMRStrategyClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRStrategyClient.h; sourceTree = "<group>"; };
 		967139CA20F64938006FBFC8 /* DMRStrategyClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRStrategyClient.m; sourceTree = "<group>"; };
+		9671B8AD210307100020D4B6 /* DMRAbstractFactoryProduct1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryProduct1.h; sourceTree = "<group>"; };
+		9671B8AE210307220020D4B6 /* DMRAbstractFactoryProduct2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryProduct2.h; sourceTree = "<group>"; };
+		9671B8AF2103080C0020D4B6 /* DMRAbstractFactoryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryFactory.h; sourceTree = "<group>"; };
+		9671B8B0210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryConcreteProduct1_1.h; sourceTree = "<group>"; };
+		9671B8B1210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryConcreteProduct1_1.m; sourceTree = "<group>"; };
+		9671B8B3210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryConcreteProduct1_2.h; sourceTree = "<group>"; };
+		9671B8B4210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryConcreteProduct1_2.m; sourceTree = "<group>"; };
+		9671B8B6210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryConcreteProduct2_1.h; sourceTree = "<group>"; };
+		9671B8B7210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryConcreteProduct2_1.m; sourceTree = "<group>"; };
+		9671B8B9210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryConcreteProduct2_2.h; sourceTree = "<group>"; };
+		9671B8BA210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryConcreteProduct2_2.m; sourceTree = "<group>"; };
+		9671B8BC210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryConcreteFactory1.h; sourceTree = "<group>"; };
+		9671B8BD210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryConcreteFactory1.m; sourceTree = "<group>"; };
+		9671B8BF210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryConcreteFactory2.h; sourceTree = "<group>"; };
+		9671B8C0210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryConcreteFactory2.m; sourceTree = "<group>"; };
+		9671B8C2210308D50020D4B6 /* DMRAbstractFactoryClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRAbstractFactoryClient.h; sourceTree = "<group>"; };
+		9671B8C3210308D50020D4B6 /* DMRAbstractFactoryClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRAbstractFactoryClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1135,6 +1159,23 @@
 			children = (
 				965216872102474300E96317 /* FactoryMode_README.md */,
 				9652167C21023A0C00E96317 /* IOS_AbstractFactoryMode_README.md */,
+				9671B8AD210307100020D4B6 /* DMRAbstractFactoryProduct1.h */,
+				9671B8AE210307220020D4B6 /* DMRAbstractFactoryProduct2.h */,
+				9671B8AF2103080C0020D4B6 /* DMRAbstractFactoryFactory.h */,
+				9671B8B0210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.h */,
+				9671B8B1210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.m */,
+				9671B8B3210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.h */,
+				9671B8B4210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.m */,
+				9671B8B6210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.h */,
+				9671B8B7210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.m */,
+				9671B8B9210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.h */,
+				9671B8BA210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.m */,
+				9671B8BC210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.h */,
+				9671B8BD210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.m */,
+				9671B8BF210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.h */,
+				9671B8C0210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.m */,
+				9671B8C2210308D50020D4B6 /* DMRAbstractFactoryClient.h */,
+				9671B8C3210308D50020D4B6 /* DMRAbstractFactoryClient.m */,
 				9652167E21023AFF00E96317 /* Resource */,
 			);
 			path = IOS_AbstractFactoryMode;
@@ -1436,9 +1477,11 @@
 				9654B5292100D3E400FE8075 /* DMRFlyweightClient.m in Sources */,
 				963A550F20FCE9EF00A1767E /* DMRCommandConcreteCommand.m in Sources */,
 				9627494520FB907A0066F326 /* DMRVisitorConcreteVisitor.m in Sources */,
+				9671B8C1210308C50020D4B6 /* DMRAbstractFactoryConcreteFactory2.m in Sources */,
 				045F543820EDFA8800B0327A /* ViewController.m in Sources */,
 				963AB2EE20FB1D1400CBAA31 /* DMRStateContext.m in Sources */,
 				045F546E20EDFE7E00B0327A /* DMRProduct.m in Sources */,
+				9671B8B5210308480020D4B6 /* DMRAbstractFactoryConcreteProduct1_2.m in Sources */,
 				9627494820FB90890066F326 /* DMRVisitorConcreteElement.m in Sources */,
 				9627495120FB97120066F326 /* DMRVisitorClient.m in Sources */,
 				967139C820F64810006FBFC8 /* DMRStrategyContext.m in Sources */,
@@ -1461,6 +1504,8 @@
 				04A66DFD20FF247200109393 /* DMRInterpreterTerminalExpression.m in Sources */,
 				967139BF20F646A1006FBFC8 /* DMRStrategyConcreteStrategy.m in Sources */,
 				045F546B20EDFDB200B0327A /* DMRBuilder.m in Sources */,
+				9671B8BB210308580020D4B6 /* DMRAbstractFactoryConcreteProduct2_2.m in Sources */,
+				9671B8B2210308410020D4B6 /* DMRAbstractFactoryConcreteProduct1_1.m in Sources */,
 				045F547E20EE19A100B0327A /* DMRPrototypeClient.m in Sources */,
 				9654B5232100CDA900FE8075 /* DMRFlyweightConcreteFlyweight.m in Sources */,
 				0448DAA820FC41F500B9B6BB /* DMRMediatorConcreteColleagueOne.m in Sources */,
@@ -1475,6 +1520,7 @@
 				04E1139020FEEACC00D4ED0A /* DMRMementoOriginator.m in Sources */,
 				9657E1C620F5038E00888D48 /* DMRObserverConcreteSubject.m in Sources */,
 				045F544320EDFA9D00B0327A /* main.m in Sources */,
+				9671B8BE210308BC0020D4B6 /* DMRAbstractFactoryConcreteFactory1.m in Sources */,
 				963AB2F720FB1D6D00CBAA31 /* DMRStateConcreteStateTwo.m in Sources */,
 				045F54A520EF511C00B0327A /* DMRProxy.m in Sources */,
 				04A30EA22101A9C10001259F /* DMRSimpleFactoryFactory.m in Sources */,
@@ -1490,6 +1536,7 @@
 				963EC96620F0A8560089A3CE /* DMRSystemTwo.m in Sources */,
 				045F54A820EF51BF00B0327A /* DMRConsignor.m in Sources */,
 				0448DAA520FC41E400B9B6BB /* DMRMediatorConcreteColleague.m in Sources */,
+				9671B8C4210308D50020D4B6 /* DMRAbstractFactoryClient.m in Sources */,
 				963EC96E20F0AD770089A3CE /* DMRFacade.m in Sources */,
 				963DEEB420F1BAAA008FD02C /* DMRCompositeLeaf.m in Sources */,
 				04CA5DB02101BC980053BF08 /* DMRFactoryMethodConcreteFactory.m in Sources */,
@@ -1497,6 +1544,7 @@
 				04E0E39A20FED1220025ADF4 /* DMRTemplateMethodConcreteClassOne.m in Sources */,
 				963DEEBA20F1BE3B008FD02C /* DMRCompositeTest.m in Sources */,
 				046B2C8E20FD982900DFE583 /* DMRIteratorConcreteIterator.m in Sources */,
+				9671B8B8210308500020D4B6 /* DMRAbstractFactoryConcreteProduct2_1.m in Sources */,
 				0448DAAB20FC428E00B9B6BB /* DMRMediatorClient.m in Sources */,
 				04A66E0320FF249600109393 /* DMRInterpreterClient.m in Sources */,
 				963A551E20FCEB1100A1767E /* DMRCommandClient.m in Sources */,

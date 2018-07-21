@@ -54,6 +54,8 @@
 
 #import "DMRFactoryMethodClient.h"
 
+#import "DMRAbstractFactoryClient.h"
+
 @interface AppDelegate ()
 // 建造者模式
 - (void)testBuilderMode;
@@ -118,6 +120,9 @@
 
 // 工厂方法模式
 - (void)testFactoryMethodMode;
+
+// 抽象工厂模式
+- (void)testAbstractFactoryMode;
 @end
 
 @implementation AppDelegate
@@ -172,7 +177,9 @@
     
 //    [self testSimpleFactoryMode];
     
-    [self testFactoryMethodMode];
+//    [self testFactoryMethodMode];
+    
+    [self testAbstractFactoryMode];
     
     return YES;
 }
@@ -343,5 +350,9 @@
 
 - (void)testFactoryMethodMode {
     [[DMRFactoryMethodClient new] test];
+}
+
+- (void)testAbstractFactoryMode {
+    [[DMRAbstractFactoryClient new] test];
 }
 @end
